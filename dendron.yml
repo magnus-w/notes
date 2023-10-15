@@ -1,0 +1,123 @@
+version: 5
+dev:
+    enablePreviewV2: true
+commands:
+    lookup:
+        note:
+            selectionMode: extract
+            confirmVaultOnCreate: true
+            leaveTrace: false
+            bubbleUpCreateNew: true
+            vaultSelectionModeOnCreate: smart
+            fuzzThreshold: 0.2
+    insertNoteLink:
+        aliasMode: none
+        enableMultiSelect: false
+    insertNoteIndex:
+        enableMarker: false
+    randomNote: {}
+    copyNoteLink: {}
+    templateHierarchy: template
+workspace:
+    dendronVersion: 0.103.0
+    vaults:
+        -
+            fsPath: org-public
+            name: public
+            selfContained: true
+        -
+            fsPath: org-dev
+            name: dev
+            selfContained: true
+        -
+            fsPath: org-private
+            name: private
+            selfContained: true
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomainNamespace
+    scratch:
+        name: scratch
+        dateFormat: y.MM.dd.HHmmss
+        addBehavior: asOwnDomain
+    graph:
+        zoomSpeed: 1
+        createStub: false
+    enableAutoCreateOnDefinition: false
+    enableXVaultWikiLink: false
+    enableRemoteVaultInit: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: false
+    maxPreviewsCached: 10
+    maxNoteLength: 204800
+    task:
+        name: task
+        dateFormat: y.MM.dd
+        addBehavior: asOwnDomain
+        statusSymbols:
+            '': ' '
+            wip: w
+            done: x
+            assigned: a
+            moved: m
+            blocked: b
+            delegated: l
+            dropped: d
+            pending: 'y'
+        taskCompleteStatus:
+            - done
+            - x
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: false
+        createTaskSelectionType: selection2link
+    enableHandlebarTemplates: true
+    enableUserTags: true
+    enableHashTags: true
+    enableEditorDecorations: true
+    enableFullHierarchyNoteTitle: false
+    enableSmartRefs: true
+preview:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: false
+    enableKatex: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    automaticallyShowPreview: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: false
+    copyAssets: true
+    siteHierarchies:
+        - root
+    enableSiteLastModified: true
+    siteRootDir: docs
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - private
+            - dev
+            - public
+    writeStubs: false
+    seo:
+        title: Dendron
+        description: Personal Knowledge Space
+    github:
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: main
+        editViewMode: tree
+    enablePrettyLinks: true
+    enableTaskNotes: true
