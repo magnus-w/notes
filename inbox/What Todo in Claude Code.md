@@ -1,6 +1,6 @@
 # On todo's and projects and Claude and things
 
-> In the next to last Installer, you talked about that tning you built with Claude Code, and I build and even simpler thing that same week! Could be inspiration. 
+> In the next to last Installer, you talked about that thing you built with Claude Code, and I build and even simpler thing that same week! Could be inspiration. 
 
 
 ## The curse of productivity
