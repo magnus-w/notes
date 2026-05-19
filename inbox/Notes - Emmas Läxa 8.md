@@ -27,4 +27,10 @@
 ### Dramaturgi
 - Allt detta går ju så klart att lätt uppdatera med fakta efter research, men jag tänker om det *dramaturgiskt* är tecken på något annat?
 - Vad är det med den här datorn? De hittar den, men då stängs utredningen ner så de får inte ta med den? Josef tar med den ändå, men då stänger Peter ner dem? Så den kommer tillbaka till Tobias? 
-- De händelserna är inte påverkade av vad som finns i datorn, vilken ledtråd den representerar, etc., utan det är faktorer *utanför* kärnan
+- De händelserna är inte påverkade av vad som finns i datorn, vilken ledtråd den representerar, etc., utan det är faktorer *utanför* kärnan, utanför ledtråd leder till ledtråd. Det är formalia som är lite böjd för att agera Deus Ex Machina. Varför? 
+- Om Josef och Mia ska få bilderna, varför inte gå direkt till det?
+- "Normal" deckarplot (som man naturligtivis inte behöver följa!) är att ledtråden man följer *i sig själv* inte ledar någonstans och så får man leta efter nya. 
+- Det faktum att bilderna sen kommer på stickan konfirmerar detta: All det andra är en omväg.
+- Och det känner vi, det är därför man ställer sig frågan "Vänta, stämmer det här med bevisen?" etc. 
+- Plus inget av detta dramaturgitänk funkar om det inte redan var så hög nivå på berättelsen! 
+- Det på grund av att det är så bra som man tänker sig "Hur skulle det vara om ledtråden X leder till att de letar efter Y, som visare sig vara fel, men det fattar då att de ska leta efter Z"?
