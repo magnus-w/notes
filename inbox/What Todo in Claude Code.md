@@ -1,15 +1,27 @@
-# On todo's and projects and Claude and things
+# On the ongoing revolution of homebuilt software and productivity
 
-> In the next to last Installer, you talked about that thing you built with Claude Code, and I build and even simpler thing that same week! Could be inspiration. 
+> In the Installer two weeks ago, you talked about that thing you built with Claude Code, and I had a similar experience that might be inspiring to others. 
+
+Hint: Not only can we build the apps we need ourselves, we might not even need apps anymore.
+
+## TL;DR
+
+If you have tried Kanban, you realize that 'time blocking' and 'planning your day' are so ineffective as to literally decreasy productivity. 
+
+And you no longer need databases or complicated apps with backlinks, tags and catagories - the likes of Notion, Obsidian, Todoist, Craft or Trello - because now you can roll your own lightweight web app with Claude Code. 
+
+And then use Claude Cowork to interact your own app!
 
 
 ## The curse of productivity
 
-As you mentioned in your email, it’s quite common to end up with a plethora of different software tools for seemingly distinct yet useful aspects when you first started using them.
+As you mentioned in your email, it’s quite common to end up with a plethora of different software tools for seemingly distinct, yet useful aspects when you first started using them.
 
-For instance, you might have Drafts for quick capture and on-the-fly markdown note-taking, Notion for projects involving content sharing, Obsidian for so-called knowledge management, Todoist and/or Reminders for task management, and perhaps even Trello. And so on, ad infinitum.
+For instance, you might have Drafts for quick capture and on-the-fly markdown notetaking, Notion for projects involving content sharing and many levels of subpages, Obsidian for so-called knowledge management, Todoist and/or Reminders for task management, and perhaps even Trello. And so on, ad infinitum.
 
-Eventually, you realize that you need or at least want to connect some of these tools in some way to make them work together seamlessly or to enhance your overall productivity.
+Eventually, you realize that you need or at least want to connect some of these tools in some way to make them work together seamlessly or to enhance your overall productivity. 
+
+And when you do, you might end up with a surprising insight! 
 
 Like many others, I had a setup similar to yours and went through a similar process. However, I ended up with a different result, which I believe can be inspiring for others.
 
