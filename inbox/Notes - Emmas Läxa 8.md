@@ -71,6 +71,8 @@
 - "De senaste veckorna" - hade inte Josef bara fjorton dagar kvar när hantverkaren kom till skrubben? 
 - "Han pratade obehindrat på..." återberättande utan vi är med.
 - Trovärdigheten: En som ska ta över som chef som Peter kan redan polisens processer som är samma oavsett avdelning. 
-- Trovärdigheten: En som vill upp som han kan inte bete sig så öppet som ett arse. Otroligt oproffsigt att hålla på med rykten och man får ju inte heller arbetsrättsligt utvärdera folk på det sättet som han/de gör. Josef skulle kunna anmäla samtalet till HR direkt. 
+- Trovärdigheten: En som vill upp som han kan inte bete sig så öppet som ett ass. Otroligt oproffsigt att hålla på med rykten och man får ju inte heller arbetsrättsligt utvärdera folk på det sättet som han/de gör. Josef skulle kunna anmäla samtalet till HR direkt. 
 - Klaff: I matsalen pratar Peter mycket om att Josef och Mia inte har tillräckligt med bevisföring för Mats- och Tobias-fallen. Men sen pratar han om Mia och hennes sambo som om bevis inte alls behövs? Känns konstigt när de två scenerna är så nära varandra. 
 - En av Peter-versionerna blir då utan trovärdighet.
+- Och han blir då till ett osofistikerat arsle i förhållande till att han presenterades som en karriärstyp som ville upp och som har snygga kläder...:-D 
+- "Det här kom till dig i morse", sa han. *Josef läste på kuvertet.* "Det ligger en USB-sticka i kuvertet" - Var det vad som stod? Bryt ut Josefs läsning ur repliken.
