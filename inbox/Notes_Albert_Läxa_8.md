@@ -1,6 +1,6 @@
 # Notes Albert – Läxa 8
 
-##Bra
+## Starkt
 Lina-scenen är textens starkaste och bäst genomförda. Introduktionen via ryktet som redan spridit sig, Leila med värmepåsen i handen när Olle kommer ut ur rummet, skrattet när smärtan släpper – allt detta är gestaltat i realtid och fungerar. Olle och Linas relation etableras naturligt och utan förklaring.
 
 Ingela-scenen har bra spänningsuppbyggnad. Den stumma promenaden längs korridoren, Olles inventering av möjliga orsaker, hajen till vid "kommer bra överens" – det är välskött. Att Ingela erbjuder honom chefsposten är ett dramatiskt effektivt slut på kapitlet.
