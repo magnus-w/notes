@@ -30,7 +30,8 @@ Like many others, I had a setup similar to yours and went through a similar proc
 
 I used Claude Code as well, but by association, that made me realize what I could do with Claude Cowork. Conclusions:
 
-1. There's a big difference between "errands" and "home tasks" compared to work. Getting milk or what to pack for the kid's outing doesn't need estimation and prioritization. The fridge door is fine, or a shared list in Reminders. 
+1. There's a big difference between "errands" and "home tasks" compared to work. Getting milk or what to pack for the kid's outing doesn't need any fancy tools or prioritization. The fridge door is fine, or a shared list in Reminders. And if you tend to not open the fridge, or forget stuff, just set a...eh, reminder.
+2. 
 2. Claude Cowork is a great tool for all of those things
 
 ---
