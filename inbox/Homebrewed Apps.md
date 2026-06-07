@@ -8,50 +8,38 @@
 
 ## We shouldn't put all things to do in the same place
 
-Anybody who has tried Kanban realizes that time management, time blocking and other calendar related approaches to planning reduces productivity by such an order of magnitude that no one in modern manufacturing of physical or digital products use it.
+Anybody who has tried Kanban realizes that as soon as you lock a specific task with a specific time/date, you are cooked. No one in modern manufacturing of physical or digital products uses time blocking for a reason.
 
-In other words, as soon as you lock a specific task with a specific time/date, you are cooked.
+But if you wake up in the morning and don't already know what you're doing that day, you're not working. You're on vacation.
 
-On the other hand, if you wake up in the morning and don't already know what you're doing that day, you're not working. You're on vacation. If you leave planning that late, you have neither efficiency, nor effectiveness.
-
-In other words, appointments and meetings go into the calendar and are deducted from the time available to do things. 
-
-Errands etc. go on the fridge door, in a shared Reminders list or whatever lightweight  tool that works. 
-
-And the rest, the things we need to do, need to produce, go in a Kanban with more than three columns. Columns that reflect the stages of the kind of work you do. And columns that have a WIP limit.
+The solution is to stop treating all to-dos as the same kind of thing. Appointments and meetings go into the calendar and are deducted from the time available to do things. Errands go on the fridge door, in a shared Reminders list, whatever lightweight tool works. And the real work — the things you need to produce — goes in a Kanban with columns that reflect the stages of your work, each with a WIP limit.
 
 ## We don't need to put all notes in the same place
 
-Strangely, the way AI interactions are structured now helps us think about work in way that would've been very valuable before as well. 
+There's no need to have a database of all your notes, interconnected. Everything isn't connected. The extra work of maintaining such a structure won't pay off, and the concept itself puts unnecessary pressure on your mind.
 
-Like how tokens put a premium on context is something we should've mentally budgeted with before. There's no need to have a database of all your notes, interconnected. Because everything isn't connected. So the a) extra work of maintaining such a structure will not pay off. And the concept in itself will b) put an unnecessarily pressure on your mind. 
+AI interactions actually make this clearer: tokens put a premium on context, which means you should only bring in what's relevant. That's a discipline worth having regardless of AI.
 
-And now when we have Claude Cowork, it doesn't matter if you have some stuff in Notion (maybe because you want to collaborate with others on it) and some stuff in a local folder and some in a repo. 
+And with Claude Cowork, it doesn't matter if you have some stuff in Notion, some in a local folder, some in a repo. The agent bridges it.
 
-## The agent is the app
+## We didn't need an app
 
-This led to the interesting discovery that I didn't need a 'glue app' in two different senses: 
+When I sat down to build my own custom productivity app with Claude Code, we arrived at a surprising conclusion: I didn't need one.
 
-- I didn't need to glue together different 'productivity tools' because few of then were now needed and there was no need to connect content from different projects from each other.
+I didn't need to glue different productivity tools together because few of them were now needed, and there was no reason to connect content across different projects. And I didn't need an app — I just needed a place to keep the Kanban and make it accessible.
 
-- And I didn't need an app - I just needed a place to have the kanban and make it accessible to...wait for it!
+With Kanban, you're not planning when to do what. You're prioritizing in which order to do things, and re-prioritizing every time you sit down to work. You don't *push* work onto yourself for a certain time slot — you *pull* work from the Kanban when you have time. Deadlines just inform priority: if someone wants an article two weeks from now, you work backwards to figure out what card to pull today.
 
-As we've already seen, when you use Kanban, your are not  planning when to do what, you are prioritizing in which order to do things. And then you re-prioritize every time you sit down to work. You don't *push* work on yourself or for for a certain time slot, you *pull* work from the Kanban when you have time to work. 
+So instead of an app, I built an interactive HTML page that read from and wrote to a single .md file — no database needed. It displayed the data as a Kanban board and saved any drag-and-drop changes back to the file. Putting that file in an iCloud Drive folder made it available on my iPhone and iPad. Sharing the folder with Claude Cowork was the last step.
 
-What about deadlines and other 'outside hard dates'? You work backwards from them, defining what has to be done in order to meet that date and using this as the way to prioritize. 
+Cowork already had access to my calendar, so available time was accounted for — and I could sit down and do the *prioritization* together with Claude.
 
-(Is someone wants an article two weeks from now, you might need to have a pitch this week, an outline beginning next and the draft at the end of next week. So when you sit down this afternoon, you pull the 'Create article pitch' card from the Kanban because it's first in line.)
+The 'app' became a) an .md file to hold the things I'm working on (each Kanban column is an H2, each card is a H3); b) the kanban.html to visualize it and to interact with drag-and-drop (it has also nice UI things like expand/collapse notes in the card); c) conversations with Claude Cowork about this content. 
 
-## Claude Code building for Claude Cowork
+And it was a bit uncanny how much Claude instantly 'knew'. Suggesting re-prioritizations based on the combo of things it saw. Insights I didn't immediately see. 
 
-So when I sat down to build my custom app together with Claude Code, we collaboratively arrived at a surprising conclusion: 
+I can easily edit the .md file in iA Writer on my phone, and that's enough for updating the columns or adding something new. Those edits are then instantly updated on the Mac, since the file lives in the iCloud Drive folder. And when I work, I usually have my laptop so I don't need the full experience mobile. 
 
-We didn't need an app.
+## The future isn't homegrown apps, it's HTML/CSS/JS + Claude
 
-Instead I built an interactive html page that took all its data from a .md file (no need for a database), showed that data as a Kanban board and saved any changes made by drag and dropping the cards across columns or adding/editing text to that .md file. 
-
-Placing that .md file in a folder on my iCloud Drive made it accessible on my iPhone and iPad and sharing the next step was sharing the folder with Claude Cowork. 
-
-Cowork already had access to my calendar, so any meetings or appointments reducing available time was there and then I could sit down and do the *prioritization* together with Claude Cowork. 
-
-
+Based on this, I 
