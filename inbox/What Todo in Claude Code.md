@@ -1,6 +1,6 @@
-# On the ongoing revolution of homebuilt software - and productivity
+# On the ongoing revolution of homebuilt software and productivity
 
-> In the Installer three weeks ago, you talked about that thing you built with Claude Code, and I had a similar experience that might be inspiring to others. 
+> In the Installer two weeks ago, you talked about that thing you built with Claude Code, and I had a similar experience that might be inspiring to others. 
 
 Hint: Not only can we build the apps we need ourselves, we might not even need apps anymore.
 
@@ -8,18 +8,18 @@ Hint: Not only can we build the apps we need ourselves, we might not even need a
 
 If you have tried Kanban, you realize that 'time blocking' and 'planning your day' are so ineffective as to literally decreasy productivity. 
 
-And you no longer need databases or complicated apps with backlinks, tags and catagories - the likes of Notion, Obsidian, Todoist, Craft or Trello - because you just need Claude Code and the browser you already have and work in. 
+And you no longer need databases or complicated apps with backlinks, tags and catagories - the likes of Notion, Obsidian, Todoist, Craft or Trello - because now you can roll your own lightweight web app with Claude Code. 
 
-And then you let Claude Cowork use your own 'app'!
+And then use Claude Cowork to interact your own app!
 
 
 ## The curse of productivity
 
-As you mentioned in your email, it’s quite common to end up with a plethora of different software tools for seemingly distinct, yet useful aspects when you first started with them.
+As you mentioned in your email, it’s quite common to end up with a plethora of different software tools for seemingly distinct, yet useful aspects when you first started using them.
 
 For instance, you might have Drafts for quick capture and on-the-fly markdown notetaking, Notion for projects involving content sharing and many levels of subpages, Obsidian for so-called knowledge management, Todoist and/or Reminders for task management, and perhaps even Trello. And so on, ad infinitum.
 
-Eventually, you realize that you need or at least want to connect some of these tools in some way to make them work together seamlessly or to enhance your overall productivity. To make them 'inform' each other.
+Eventually, you realize that you need or at least want to connect some of these tools in some way to make them work together seamlessly or to enhance your overall productivity. 
 
 And when you do, you might end up with a surprising insight! 
 
@@ -30,8 +30,9 @@ Like many others, I had a setup similar to yours and went through a similar proc
 
 I used Claude Code as well, but by association, that made me realize what I could do with Claude Cowork. Conclusions:
 
-1. There's a big difference between "errands" and "home tasks" compared to work. Getting milk or what to pack for the kid's outing doesn't need any fancy tools or prioritization. The fridge door is fine, or a shared list in Reminders. And if you tend to not open the fridge, or forget stuff, just set a...eh, reminder.
-2. Claude Cowork is a great tool for all of those things, so you really don't need an app!
+1. There's a big difference between "errands", or "home/private tasks" compared to work. Getting milk or what to pack for the kid's outing doesn't need estimation and prioritization. The fridge door is fine, or, if you tent do forget to look at the fridge, a shared list in Reminders with - uh - a reminder. 
+2. 
+2. Claude Cowork is a great tool for all of those things
 
 ---
 Annotations: 0,1496 SHA-256 70edf9072734440fbc28  

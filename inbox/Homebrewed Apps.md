@@ -6,6 +6,20 @@
 
 - When I approached a similar situation, I found something really interesting in that intersection and with impact on both perspectives.
 
+## Summary
+
+1. **Custom tools are feasible** — Claude Code enables building personal productivity apps tailored to individual workflows, as demonstrated by the author's experience.
+
+2. **Separate to-do categories by type** — Different tasks belong in different places: calendar for appointments, lightweight tools (like Reminders) for errands, and Kanban boards for actual work with WIP limits.
+
+3. **Don't centralize all notes** — Maintaining an interconnected database of everything is unnecessary overhead; instead, keep only relevant context accessible, which aligns with how AI agents work best with focused token usage.
+
+4. **A simple HTML interface replaced a complex app** — The author discovered they didn't need a traditional app; instead, a single `.md` file + an interactive HTML Kanban visualizer solved the problem elegantly.
+
+5. **Pull work instead of pushing it** — Rather than time-blocking tasks, prioritize work dynamically each session by pulling cards from the Kanban based on available time; deadlines inform priority rather than scheduling.
+
+6. **The future is lightweight HTML/CSS/JS + Claude** — Simple, static-file-based tools paired with Claude's ability to understand context and suggest improvements offer a powerful alternative to traditional app development.
+
 ## We shouldn't put all things to do in the same place
 
 Anybody who has tried Kanban realizes that as soon as you lock a specific task with a specific time/date, you are cooked. No one in modern manufacturing of physical or digital products uses time blocking for a reason.
@@ -42,4 +56,4 @@ I can easily edit the .md file in iA Writer on my phone, and that's enough for u
 
 ## The future isn't homegrown apps, it's HTML/CSS/JS + Claude
 
-Based on this, I 
+Based on this, I
