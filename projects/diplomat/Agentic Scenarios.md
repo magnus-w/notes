@@ -9,14 +9,23 @@
 - "Fråga Anders"-agenten - Seniora ledares trängsta resurs är deras bandbredd, samtidigt som deras kompetens snabbar på och förbättrar andra medarbetare produktion. 
 - Många börsnoterade företag har nu byggt och ännu fler bygger agenter som fungerar som en avatar för en specifik ledare så att medarbetare kan ställa frågor, be om råd och få feedback även när ledaren inte är tillgänglig. 
 - Detta är helt enkelt bara en ny kanal för internkommunikation och vem ska man gå till för att få hjälp med internkommunikation? Man borde väl vända sig till de som redan är bäst på corporate communications? Men som vanligt i tech-skiften kan andra spelare rycka till sig marknadsandelar.
-- **Risk:** Stora svenska organisationer går till tech-leverantörer eller konkurrenter till Diplomat som profilerat sig som AI-kunniga för att få den här typen av avatat-agenter byggda.
+- **Risk:** Stora svenska organisationer går till tech-leverantörer eller konkurrenter till Diplomat som profilerat sig som AI-kunniga för att få den här typen av avatat-agenter byggda, eftersom de vill att delar av deras internkommunikation framgent ska skötas på det här sättet.
 - **Möjlighet:** Diplomat visar att man fortsatt har den ledande positionen inom corporate communications genom att erbjuda kunder att bygga de bästa avatar-agenterna - de som arbetar enligt en beslutad kommunikationsstrategi.
 
-### b) Professional Service-agenter
+### b) Professional Service-agenter - Diplomat-agenten
 - Precis som under tidigare teknikskiften händer två saker som ruskar om en etablerad marknad. Nya firmor som inte har en historia inom branschen, men som kan och erbjuder den nya tekniken tar marknadsandelar från de traditionella spelarna. Traditionella spelare som tar till sig och använder den nya tekniken slår både de nyanlända och sina tidigare etablerade konkurrenter.
 - Precis som den AI-jurist som just nu marknadsförs i tunnelbanan kommer corporate communications innan oktober få se sin första kommunikationsagent.
 - Istället för att sitta framför en generisk AI-chat eller med en agent byggd av företagets kommunikationsavdelning, kommer medarbetare kunna chatta direkt med en agent byggd av en bransch-expert. En Diplomat-agent borde rimligtvis ge bättre råd och generera bättre artefakter än en agent byggd av den kommunikationsavdelning som traditionellt vände sig till firmor som Diplomat. 
 - Detta kommer att fungera både som marknadsföring och "on-ramp" för kunder och en tokenintäkt som tickar även när Diplomat-medarbetare sover.
+- **Risk:** Precis som juristfirman som nu gör reklam i tunnelbanan för sin app, lanserar vassa konkurrenter till Diplomat en eller flera agenter i början av hösten som kunder kan accessa som en light-version av firmans personliga rådgivning. Detta gör att Diplomat upplevs ligga efter, plus att Diplomat förlorar affärer på ett nytt sätt: Kunder provar agenten, blir nöjda och fortsätter med ett djupare engagemang.
+- **Möjlighet:** Diplomat lanserar i början av hösten en Diplomat-agent, som självklart är branschens ledande agent och som ger Diplomat nya intäktsströmmar och en ny, automatisk on-ramp för kunder.
+
+### c) Namnkunniga experter som externa avatarer
+- En tredje agentdimension som redan håller på att växa fram är när en erkänd expert – en professor, en välkänd analytiker eller en ledande och respekterad branschröst – bygger en agent som bär deras namn och som kanaliserar deras kompetens och rådgivning.
+- Ledande konsultfirmor och universitet använder detta både i marknadsföringssyfte (vi ligger i framkant när det gäller AI), för att skapa enkla och snabba on-ramps för nya kunder (dyrt, men billigare än att boka ett fysiskt möte) och för att generera nya intäktsströmmar utanför expertens tillgänglighet.
+- Det är en logisk förlängning av hur experter redan monetariserar sin kunskap – böcker, föreläsningar, nyhetsbrev – men nu skalas deras tillgänglighet upp till 24/7 utan att deras faktiska tid konsumeras. För Diplomat, som sedan länge har etablerade relationer med Sveriges ledande kommunikationsexperter och akademiker, är det en naturligt steg att vara den aktör som förmedlar, bygger och kvalitetssäkrar den här typen av agenter.
+- **Risk:** 1. Universitet, managementkonsulterna eller de namnkunniga experterna själva tar bygger agenter med hjälp av tech-leverantörer och etablerar en ny kategori av AI-native "expert platforms" som kunder kan gå direkt till, utan att passera kommunikationskonsulter. 2. En eller flera av Diplomats direkt konkurrenter lanserar agenter byggda på deras grundare eller toppnamn senast i september. 
+- **Möjlighet:** Diplomat positionerar sig som ledande inom denna nya kanal och tillgängliggör expertagenter baserade på sina grundare och/eller toppkonsulter.
 
 ## Produktutveckling av tjänster som Diagnos
 Både för tid och kvalitet är det en sämre idé att först ”bestämma vad Diagnos (eller vilken annan tjänst som helst) ska vara" och sen börja bygga. 
