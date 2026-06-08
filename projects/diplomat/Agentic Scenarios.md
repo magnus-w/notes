@@ -19,7 +19,14 @@
 - Detta kommer att fungera både som marknadsföring och "on-ramp" för kunder och en tokenintäkt som tickar även när Diplomat-medarbetare sover.
 
 ## Produktutveckling av tjänster som Diagnos
-- Både för tid och kvalitet är det en sämre idé att först ”bestämma vad Diagnos (eller vilken annan tjänst som helst ska vara) och sen börja bygga. 
+Både för tid och kvalitet är det en sämre idé att först ”bestämma vad Diagnos (eller vilken annan tjänst som helst) ska vara" och sen börja bygga. 
 - Dels för att om man inte vet vad agenten kan och inte kan göra med kvalitet, är risken stor att man definierar något som A) blir svårt att bygga, så man får ändå gå tillbaka och redefiniera vad produkten ska vara. Och att man B) missar saker som produkten skulle kunna innehålla eftersom man inte visste vad agenten kunde göra.
-- Det tar också alltid längre total tid när digitala produkter byggs i faser som motsvarar olika utvecklingssteg. Man arbetar helt enkelt inte längre så. 
-- Istället börjar man med en mycket grov idé, mer som en lös skiss och sen utforskar man delarna i den och ”trycktestar” dem mot verkligheten. I det här fallet genom att ”bygga” de delarna och se hur agenten beter sig och levererar. 
+
+### Både snabbare och högre kvalitet
+Det tar också alltid längre total tid när digitala produkter byggs i faser som motsvarar olika utvecklingssteg. Man arbetar helt enkelt inte längre så. 
+- Istället börjar man med en mycket grov idé, mer som en lös skiss och sen utforskar man delarna i den och ”trycktestar” dem mot verkligheten. Genom att bygga de delarna och se hur agenten beter sig och levererar. 
+- Ungefär som arkitekten designar en stol: Den första blyertsskissen är inte exakt nog att använda för tillverkning. Men den visar på former, material och kanske lite speciella fästen som tillsammans ger den unika stoldesignen. Och då börjar man trycktesta olika lösningar för fästen och material för att se om det är genomförbart och korrigerar under gång beroende på vad man finner, på vilken feedback man får. 
+
+### Alla utvecklingsfaser applicerade på en liten delmängd
+Om vi låtsas att en produkt—oavsett vad den så att säga ska spotta ut i slutänden—innehåller en research-, en analys- och en rapportdel, då kan bygga utkast av researchdelen och testa på vilket sätt "den agenten" kan optimeras medan vi parallellt detaljerar de andra delarna. Eller vi kanske undersöker vilken typ av research den kan göra bättre än annan. 
+- Man kan säga att det framgångsrika arbetssättet går till så att istället för klassiska faser (först bestämmer vi hur allt ska vara, sen börjar vi bygga det, sen testar vi om det fungerar), så går man igenom alla de faserna fast för en mindre delmängd av helheten.
