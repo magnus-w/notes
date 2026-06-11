@@ -54,6 +54,20 @@ And it was a bit uncanny how much Claude instantly 'knew'. Suggesting re-priorit
 
 I can easily edit the .md file in iA Writer on my phone, and that's enough for updating the columns or adding something new. Those edits are then instantly updated on the Mac, since the file lives in the iCloud Drive folder. And when I work, I usually have my laptop so I don't need the full experience mobile. 
 
-## The future isn't homegrown apps, it's HTML/CSS/JS + Claude
+## The future isn't homegrown apps, it's vanilla HTML/CSS/JS + Claude
 
-Based on this, I
+The future isn't homebrewed apps, it's vanilla web "apps" + Claude. 
+
+Read your Verge article about homebrewed apps and got inspired. Also read the installer where you talked about the productivity tool you built and was in a similar situation. And was then surprised by what I found!
+
+1. Looking at what to build, I realized that I didn't need all "tasks" in one place, or all notes in one place, interconnected. 
+2. Since time blocking/time management has been proved as highly ineffective long ago (no manufacturer or software company uses it now), errands, meetings and appointments go in the calendar and nothing else. (What to buy for the kids school excursion needs nothing more sophisticated than the fridge door or a shared Reminders list.) 
+3. The rest - what has to be done - goes obviously in a Kanban with more than three columns (reflecting whatever stages your process has) and WIP limits per column. 
+4. Instead of **pushing** work on yourself (or others), i.e. by "planning" when it should be done, you **pull** the next, **highest priortized** item from the backlog column. Separate from working, and separate from adding new items, you prioritize and reprioritize the backlog items. 
+5. Points 2-4 are nothing new, it's just basic Kanban and scientifically validated. But it's interesting how few seem to be using it when you read about their setups. The new thing - for me - was that applying this to a simlar mix of apps as yours (Obsidian, Todoist, Craft, etc.) had a surprisingly effective outcome:
+6. a) A markdown file to hold the information; all the "cards" with tasks and, if needed, notes for each task. This way no database or external tool/service is needed. b)A HTML/CSS/JS Kanban.html that visulizes the data in the markdown file as a Kanban board. Dragging and dropping cards in across the columns in the browser, and editing/adding info on the cards, automatically updates the markdown file.
+7. The markdown file lives in a folder in my iCloud Drive, so I can easily edit it from any device. And, crucially, Claude Cowork has access to the folder. 
+8. Now I can run 'daily standups' and prioritizing 'meetings' with Claude Cowork and get its help with prioritizing tasks. And since it has access to my calendar and email, it already acts like a more advanced personal assistant than what Apple introduced with Siri AI day before yesterday. Specifically, much more context aware when it comes to details within my projects. 
+9. I then took the next step and 'Claudified' my notes as well. So I no longer need Craft, Obsidian or similar. I have Notion for things where I need the ability to collaborate in a structured way with others, and since the both my Claude Code and Claude Cowork are connected to through the Notion MPC. 
+10. The rest of my notes/files live in their respective 'projects folders'. When those are repositories, Claude Code automatically have access and knowledge. When they're not, I add them as contexts in Claude projects. Through Skills, Claude can read most document formats so I'm free to use any tool I need per respectice project. Instead of gaffa taping Craft, Obsidian or similar into doing things they aren't very good at for the sake of 'keeping things organized'.
+11. Also, no need to find ways to connect differnt notes or files. Instead of 'knowledge management', backlinks and tags I just talk to Claude Cowork.
