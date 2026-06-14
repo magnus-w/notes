@@ -15,4 +15,4 @@ De kan skapa en mjuk säkerhetszon runt sin människa genom ljus, ljud och posit
 
 I vardagen kan de bli små exekutiva assistenter: betala, boka, kvittera, hämta information, hitta borttappade saker och påminna om beslut som människan redan har fattat men glömt i stunden. De gör världen mindre administrativ.
 
-Mellan människor kan Companions bära närvaro. En drönare kan dyka upp före sin människa, meddela att hon är på väg, känna av stämningen i rummet och föreslå om hon ska gå in, vänta, skicka ett meddelande eller låta drönaren tala först.
+Mellan människor kan Companions/Medföljare/Ledsagare bära närvaro. En drönare kan dyka upp före sin människa, meddela att hon är på väg, känna av stämningen i rummet och föreslå om hon ska gå in, vänta, skicka ett meddelande eller låta drönaren tala först.
