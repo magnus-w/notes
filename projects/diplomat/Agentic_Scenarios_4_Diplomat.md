@@ -1,3 +1,10 @@
+- - -
+title: Agentic Scenarios
+subtitle: Tre dimensioner som förändrar marknaden i höst
+from: Magnus Westerberg
+date: Juni 2026
+- - -
+
 # Agentic Scenarios - Timeline ASAP
 
 > [!TL;DR] Innan hösten har konkurrenter redan lanserat i de tre agent-dimensionerna. 

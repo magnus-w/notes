@@ -355,6 +355,16 @@
   #toc-list a[aria-current] { color: var(--ink); font-weight: 600; }
   #toc-list .toc-h3 > a { padding-left: 1.5rem; font-size: 0.80rem; }
 
+  #toc-cb { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+
+  /* Transparent backdrop — second label for same checkbox, closes menu on outside tap */
+  #toc-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+  }
+
   #toc-toggle {
     display: none;
     position: fixed;
@@ -388,8 +398,12 @@
       padding: 3.5rem 1.5rem 1.5rem;
       overflow-y: auto;
     }
-    #toc.open { display: block; }
     #toc-toggle { display: inline-flex; }
+  }
+  /* CSS-only toggle and backdrop — works without JavaScript (e.g. iOS Mail) */
+  @media (max-width: 1080px) {
+    body:has(#toc-cb:checked) #toc { display: block !important; }
+    body:has(#toc-cb:checked) #toc-backdrop { display: block; }
     #toc-list { border-left: 0; }
     #toc-list a { padding: 0.5rem 0; font-size: 0.9rem; }
     #toc-list .toc-h3 > a { padding-left: 1rem; font-size: 0.85rem; }
@@ -449,7 +463,7 @@
 
   /* ── Print ── */
   @media print {
-    #toc-toggle { display: none !important; }
+    #toc-cb, #toc-backdrop, #toc-toggle { display: none !important; }
 
     /* TOC flows between header and content */
     #toc {
@@ -540,13 +554,15 @@
 </head>
 <body>
 
-<button id="toc-toggle" aria-expanded="false" aria-label="Visa innehållsförteckning" hidden>
+<input type="checkbox" id="toc-cb">
+<label for="toc-cb" id="toc-backdrop"></label>
+<label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
     <line x1="2" y1="4" x2="14" y2="4"/>
     <line x1="2" y1="8" x2="14" y2="8"/>
     <line x1="2" y1="12" x2="14" y2="12"/>
   </svg>
-</button>
+</label>
 
 <div class="page">
 
@@ -559,17 +575,56 @@
     <p class="doc-subtitle"></p>
   </header>
 
-  <nav id="toc" aria-label="Innehållsförteckning" hidden>
+  <nav id="toc" aria-label="Innehållsförteckning">
     <p class="toc-label">Innehåll</p>
-    <ul id="toc-list"></ul>
+    <ul id="toc-list">
+    <li class="toc-h2"><a href="#tre-agentdimensioner-under-sommaren">Tre agentdimensioner under
+sommaren</a></li>
+    <li class="toc-h3"><a href="#a-internkommunikation-via-avatarer">a) Internkommunikation via
+avatarer</a></li>
+    <li class="toc-h3"><a href="#b-professional-service-agenter---diplomat-agenten">b)
+Professional Service-agenter - Diplomat-agenten</a></li>
+    <li class="toc-h3"><a href="#c-namnkunniga-experter-som-externa-avatarer">c) Namnkunniga
+experter som externa avatarer</a></li>
+    <li class="toc-h2"><a href="#produktutveckling-av-tjänster-som-diagnos">Produktutveckling av
+tjänster som Diagnos</a></li>
+    <li class="toc-h3"><a href="#både-snabbare-och-högre-kvalitet">Både snabbare och högre
+kvalitet</a></li>
+    <li class="toc-h3"><a href="#alla-utvecklingsfaser-applicerade-på-en-liten-delmängd">Alla
+utvecklingsfaser applicerade på en liten delmängd</a></li>
+    </ul>
   </nav>
 
   <main class="doc-body">
 
+<table>
+<tbody>
+<tr class="odd">
+<td>ti</td>
+<td>tl</td>
+<td>e: Agentic Scenarios</td>
+</tr>
+<tr class="even">
+<td>su</td>
+<td>bt</td>
+<td>itle: Tre dimensioner som förändrar marknaden i höst</td>
+</tr>
+<tr class="odd">
+<td>fr</td>
+<td>om</td>
+<td>: Magnus Westerberg</td>
+</tr>
+<tr class="even">
+<td>da</td>
+<td>te</td>
+<td>: Juni 2026</td>
+</tr>
+</tbody>
+</table>
 <blockquote>
-<p>[!tldr] Innan hösten har konkurrenterna redan lanserat i de tre
-agent-dimensionerna. I professional services och corporate
-communications ser vi redan ett stort användande av agenter utanför det
+<p>[!TL;DR] Innan hösten har konkurrenter redan lanserat i de tre
+agent-dimensionerna. I Professional Services och Corporate
+Communications ser vi redan ett stort användande av agenter utanför det
 interna stöttandet av medarbetarnas arbetsflöden.</p>
 </blockquote>
 <h2 id="tre-agentdimensioner-under-sommaren">Tre agentdimensioner under
@@ -584,32 +639,33 @@ medarbetare produktion.</li>
 som fungerar som en avatar för en specifik ledare så att medarbetare kan
 ställa frågor, be om råd och få feedback även när ledaren inte är
 tillgänglig.</li>
-<li>Detta är helt enkelt bara en ny kanal för internkommunikation och
-vem ska man gå till för att få hjälp med internkommunikation? Man borde
-väl vända sig till de som redan är bäst på corporate communications? Men
-som vanligt i tech-skiften kan andra spelare rycka till sig
-marknadsandelar.</li>
+<li>Detta är helt enkelt bara en ny kanal för internkommunikation — en
+ny sorts town hall — och vem ska man gå till för att få hjälp med
+internkommunikation? Man borde väl vända sig till de som redan är bäst
+på Corporate Communications? Men som vanligt i tech-skiften kan andra
+spelare rycka till sig marknadsandelar.</li>
 <li><strong>Risk:</strong> Stora svenska organisationer går till
 tech-leverantörer eller konkurrenter till Diplomat som profilerat sig
-som AI-kunniga för att få den här typen av avatat-agenter byggda,
+som AI-kunniga för att få den här typen av avatar-agenter byggda,
 eftersom de vill att delar av deras internkommunikation framgent ska
 skötas på det här sättet.</li>
 <li><strong>Möjlighet:</strong> Diplomat visar att man fortsatt har den
-ledande positionen inom corporate communications genom att erbjuda
+ledande positionen inom Corporate Communications genom att erbjuda
 kunder att bygga de bästa avatar-agenterna - de som arbetar enligt en
-beslutad kommunikationsstrategi.</li>
+vass och beslutad kommunikationsstrategi som Diplomat hjälpt till att
+utveckla.</li>
 </ul>
 <h3 id="b-professional-service-agenter---diplomat-agenten">b)
 Professional Service-agenter - Diplomat-agenten</h3>
 <ul>
 <li>Precis som under tidigare teknikskiften händer två saker som ruskar
 om en etablerad marknad. Nya firmor som inte har en historia inom
-branschen, men som kan och erbjuder den nya tekniken tar marknadsandelar
-från de traditionella spelarna. Traditionella spelare som tar till sig
-och använder den nya tekniken slår både de nyanlända och sina tidigare
+branschen, men som erbjuder den nya teknoligin tar marknadsandelar från
+de traditionella spelarna. Traditionella spelare som tar till sig och
+använder den nya teknologin slår både de nyanlända och sina tidigare
 etablerade konkurrenter.</li>
 <li>Precis som den AI-jurist som just nu marknadsförs i tunnelbanan
-kommer corporate communications innan oktober få se sin första
+kommer Corporate Communications innan oktober få se sin första
 kommunikationsagent.</li>
 <li>Istället för att sitta framför en generisk AI-chat eller med en
 agent byggd av företagets kommunikationsavdelning, kommer medarbetare
@@ -617,9 +673,9 @@ kunna chatta direkt med en agent byggd av en bransch-expert. En
 Diplomat-agent borde rimligtvis ge bättre råd och generera bättre
 artefakter än en agent byggd av den kommunikationsavdelning som
 traditionellt vände sig till firmor som Diplomat.</li>
-<li>Detta kommer att fungera både som marknadsföring och “on-ramp” för
-kunder och en tokenintäkt som tickar även när Diplomat-medarbetare
-sover. Agenten blir den tunna fronten på en kil in på marknaden som gör
+<li>Detta kommer att fungera både som marknadsföring, som “on-ramp” för
+kunder och ge en tokenintäkt som tickar även när Diplomat-medarbetare
+sover. Agenten blir den tunna kanten på en kil in på marknaden som gör
 att kunder kan prova med väldigt liten risk. Och även om de bestämmer
 sig för att fortsätta med agenten under en längre tid så betyder det
 också en intäkt som Diplomat inte har idag.<br />
@@ -630,8 +686,7 @@ eller flera agenter i början av hösten som kunder kan accessa som en
 light-version av firmans personliga rådgivning. Detta gör att Diplomat
 upplevs ligga efter, plus att Diplomat förlorar affärer på ett nytt
 sätt: Kunder provar agenten, blir nöjda och fortsätter med ett djupare
-engagemang. (Med största sannolikhet har konkurrenter inte sommarlov i
-år, utan sitter just nu och bygger agenter av denna sort.)</li>
+engagemang.</li>
 <li><strong>Möjlighet:</strong> Diplomat lanserar i början av hösten en
 Diplomat-agent, som självklart är branschens ledande agent och som ger
 Diplomat nya intäktsströmmar och en ny, automatisk on-ramp för
@@ -641,8 +696,8 @@ kunder.</li>
 experter som externa avatarer</h3>
 <ul>
 <li>En tredje agentdimension som redan håller på att växa fram är när en
-erkänd expert – en professor, en välkänd analytiker eller en ledande och
-respekterad branschröst – bygger en agent som bär deras namn och som
+erkänd expert — en professor, en välkänd analytiker eller en ledande och
+respekterad branschröst — bygger en agent som bär deras namn och som
 kanaliserar deras kompetens och rådgivning. Detta är helt enkelt “Fråga
 Anders”-agenten, fast tillgänglig externt.</li>
 <li>Ledande konsultfirmor och universitet använder detta både i
@@ -651,19 +706,19 @@ skapa enkla och snabba on-ramps för nya kunder (dyrt, men billigare än
 att boka ett fysiskt möte) och för att generera nya intäktsströmmar
 utanför expertens tillgänglighet.</li>
 <li>Det är en logisk förlängning av hur experter redan monetariserar sin
-kunskap – böcker, föreläsningar, nyhetsbrev – men nu skalas deras
+kunskap — böcker, föreläsningar, nyhetsbrev — men nu skalas deras
 tillgänglighet upp till 24/7 utan att deras faktiska tid konsumeras. För
-Diplomat, som sedan länge har etablerade relationer med Sveriges ledande
-kommunikationsexperter och akademiker, är det en naturligt steg att vara
-den aktör som förmedlar, bygger och kvalitetssäkrar den här typen av
-agenter.</li>
-<li><strong>Risk:</strong> 1. Universitet, managementkonsulterna eller
-de namnkunniga experterna själva tar bygger agenter med hjälp av
+Diplomat, som Sveriges ledande kommunikationsrådgivare, är det ett
+naturligt steg att vara den aktör som förmedlar, bygger och
+kvalitetssäkrar den här typen av agenter. Och som “agentifierar” seniora
+rådgivare i sitt nätverk.</li>
+<li><strong>Risk:</strong> 1. Universitet, managementkonsulter eller de
+namnkunniga experterna själva, bygger agenter med hjälp av
 tech-leverantörer och etablerar en ny kategori av AI-native “expert
 platforms” som kunder kan gå direkt till, utan att passera
-kommunikationskonsulter. 2. En eller flera av Diplomats direkt
-konkurrenter lanserar agenter byggda på deras grundare eller toppnamn
-senast i september.</li>
+kommunikationskonsulter. 2. En eller flera av Diplomats direkta
+konkurrenter lanserar agenter byggda på deras grundare eller toppnamn i
+höst.</li>
 <li><strong>Möjlighet:</strong> Diplomat positionerar sig som ledande
 inom denna nya kanal och tillgängliggör expertagenter baserade på sina
 grundare och/eller toppkonsulter.</li>
@@ -671,37 +726,36 @@ grundare och/eller toppkonsulter.</li>
 <h2 id="produktutveckling-av-tjänster-som-diagnos">Produktutveckling av
 tjänster som Diagnos</h2>
 <p>Både för tid och kvalitet är det en sämre idé att först ”bestämma vad
-Diagnos (eller vilken annan tjänst som helst) ska vara” och sen börja
-bygga. - Dels för att om man inte vet vad agenten kan och inte kan göra
-med kvalitet, är risken stor att man definierar något som A) blir svårt
-att bygga, så man får ändå gå tillbaka och redefiniera vad produkten ska
+Diagnos (eller valfri annan tjänst) ska vara” och sen börja bygga. -
+Dels för att om man inte vet vad agenten kan och inte kan göra med
+kvalitet, är risken stor att man definierar något som A) blir svårt att
+bygga, så man får ändå gå tillbaka och redefiniera vad produkten ska
 vara. Och att man B) missar saker som produkten skulle kunna innehålla
 eftersom man inte visste vad agenten kunde göra.</p>
 <h3 id="både-snabbare-och-högre-kvalitet">Både snabbare och högre
 kvalitet</h3>
 <p>Det tar också alltid längre total tid när digitala produkter byggs i
-faser som motsvarar olika utvecklingssteg. Man arbetar helt enkelt inte
-längre så. - Istället börjar man med en mycket grov idé, mer som en lös
-skiss och sen utforskar man delarna i den och ”trycktestar” dem mot
-verkligheten. Genom att bygga de delarna och se hur agenten beter sig
-och levererar. - Ungefär som arkitekten designar en stol: Den första
-blyertsskissen är inte exakt nog att använda för tillverkning. Men den
-visar på former, material och kanske lite speciella fästen som
-tillsammans ger den unika stoldesignen. Och då börjar man trycktesta
-olika lösningar för fästen och material för att se om det är
-genomförbart och korrigerar under gång beroende på vad man finner, på
-vilken feedback man får.</p>
+faser som motsvarar olika utvecklingssteg.<br />
+- Istället börjar man med en mycket grov idé, mer som en lös skiss och
+sen utforskar man delarna i den och ”trycktestar” dem mot verkligheten.
+Genom att bygga de delarna och se hur agenten beter sig och levererar. -
+Ungefär som arkitekten designar en stol: Den första blyertsskissen är
+inte exakt nog att använda för tillverkning. Men den visar på former,
+material och kanske lite speciella fästen som tillsammans ger den unika
+stoldesignen. Och då börjar man trycktesta olika lösningar för fästen
+och material för att se om det är genomförbart och korrigerar under gång
+beroende på vad man finner, på vilken feedback man får.</p>
 <h3 id="alla-utvecklingsfaser-applicerade-på-en-liten-delmängd">Alla
 utvecklingsfaser applicerade på en liten delmängd</h3>
-<p>Om vi låtsas att en produkt—oavsett vad den så att säga ska spotta ut
-i slutänden—innehåller en research-, en analys- och en rapportdel, då
-kan bygga utkast av researchdelen och testa på vilket sätt “den agenten”
-kan optimeras medan vi parallellt detaljerar de andra delarna. Eller vi
-kanske undersöker vilken typ av research den kan göra bättre än annan. -
-Man kan säga att det framgångsrika arbetssättet går till så att istället
-för klassiska faser (först bestämmer vi hur allt ska vara, sen börjar vi
-bygga det, sen testar vi om det fungerar), så går man igenom alla de
-faserna fast för en mindre delmängd av helheten.</p>
+<p>Om vi låtsas att en produkt — oavsett vad den så att säga ska spotta
+ut i slutänden — innehåller en research-, en analys- och en rapportdel,
+då kan bygga utkast av researchdelen och testa på vilket sätt “den
+agenten” kan optimeras medan vi parallellt detaljerar de andra delarna.
+Eller vi kanske undersöker vilken typ av research den kan göra bättre än
+annan. - Man kan säga att det framgångsrika arbetssättet går till så att
+istället för klassiska faser (först bestämmer vi hur allt ska vara, sen
+börjar vi bygga det, sen testar vi om det fungerar), så går man igenom
+alla de faserna fast för en mindre delmängd av helheten.</p>
 
 
   </main>
@@ -713,27 +767,12 @@ faserna fast för en mindre delmängd av helheten.</p>
   var toc     = document.getElementById('toc');
   var list    = document.getElementById('toc-list');
   var toggle  = document.getElementById('toc-toggle');
+  var cb      = document.getElementById('toc-cb');
   var body    = document.querySelector('.doc-body');
-  if (!body) return;
+  if (!toc || !list || !body) return;
 
-  // Build TOC from h2 + h3 inside .doc-body
+  // TOC list is pre-built by convert.py — JS only adds active tracking
   var headings = Array.from(body.querySelectorAll('h2, h3'));
-  if (headings.length < 2) return; // no point showing TOC for short docs
-
-  headings.forEach(function (h, i) {
-    if (!h.id) h.id = 'h-' + i + '-' + h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    var li  = document.createElement('li');
-    li.className = h.tagName === 'H3' ? 'toc-h3' : 'toc-h2';
-    var a   = document.createElement('a');
-    a.href  = '#' + h.id;
-    a.textContent = h.textContent;
-    li.appendChild(a);
-    list.appendChild(li);
-  });
-
-  // Show nav and toggle button
-  toc.removeAttribute('hidden');
-  toggle.removeAttribute('hidden');
 
   // Active section tracking via IntersectionObserver
   var links = Array.from(list.querySelectorAll('a'));
@@ -759,26 +798,16 @@ faserna fast för en mindre delmängd av helheten.</p>
 
   headings.forEach(function (h) { observer.observe(h); });
 
-  // Mobile toggle
-  toggle.addEventListener('click', function () {
-    var open = toc.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-
-  // Close on outside click
+  // JS close on outside click — backdrop label handles it without JS too
   document.addEventListener('click', function (e) {
-    if (!toc.contains(e.target) && !toggle.contains(e.target)) {
-      toc.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
+    if (cb && cb.checked && !toc.contains(e.target) && !toggle.contains(e.target)) {
+      cb.checked = false;
     }
   });
 
-  // Close and scroll on link click (mobile)
+  // Close on link click (mobile)
   list.addEventListener('click', function (e) {
-    if (e.target.tagName === 'A') {
-      toc.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
-    }
+    if (e.target.tagName === 'A') { cb.checked = false; }
   });
 
   // Align TOC so the first link sits level with the first content element (desktop only)
