@@ -355,6 +355,8 @@
   #toc-list a[aria-current] { color: var(--ink); font-weight: 600; }
   #toc-list .toc-h3 > a { padding-left: 1.5rem; font-size: 0.80rem; }
 
+  #toc-cb { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+
   #toc-toggle {
     display: none;
     position: fixed;
@@ -388,8 +390,11 @@
       padding: 3.5rem 1.5rem 1.5rem;
       overflow-y: auto;
     }
-    #toc.open { display: block; }
     #toc-toggle { display: inline-flex; }
+  }
+  /* CSS-only toggle — works even when JS is blocked (e.g. iOS Mail) */
+  @media (max-width: 1080px) {
+    body:has(#toc-cb:checked) #toc { display: block !important; }
     #toc-list { border-left: 0; }
     #toc-list a { padding: 0.5rem 0; font-size: 0.9rem; }
     #toc-list .toc-h3 > a { padding-left: 1rem; font-size: 0.85rem; }
@@ -449,7 +454,7 @@
 
   /* ── Print ── */
   @media print {
-    #toc-toggle { display: none !important; }
+    #toc-cb, #toc-toggle { display: none !important; }
 
     /* TOC flows between header and content */
     #toc {
@@ -540,13 +545,14 @@
 </head>
 <body>
 
-<button id="toc-toggle" aria-expanded="false" aria-label="Visa innehållsförteckning" hidden>
+<input type="checkbox" id="toc-cb">
+<label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning" hidden>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
     <line x1="2" y1="4" x2="14" y2="4"/>
     <line x1="2" y1="8" x2="14" y2="8"/>
     <line x1="2" y1="12" x2="14" y2="12"/>
   </svg>
-</button>
+</label>
 
 <div class="page">
 
@@ -681,6 +687,7 @@ grundare och/eller toppkonsulter.</li>
   var toc     = document.getElementById('toc');
   var list    = document.getElementById('toc-list');
   var toggle  = document.getElementById('toc-toggle');
+  var cb      = document.getElementById('toc-cb');
   var body    = document.querySelector('.doc-body');
   if (!body) return;
 
@@ -727,26 +734,16 @@ grundare och/eller toppkonsulter.</li>
 
   headings.forEach(function (h) { observer.observe(h); });
 
-  // Mobile toggle
-  toggle.addEventListener('click', function () {
-    var open = toc.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-
-  // Close on outside click
+  // Close on outside click (JS enhancement — CSS handles the open/close itself)
   document.addEventListener('click', function (e) {
-    if (!toc.contains(e.target) && !toggle.contains(e.target)) {
-      toc.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
+    if (cb.checked && !toc.contains(e.target) && !toggle.contains(e.target)) {
+      cb.checked = false;
     }
   });
 
-  // Close and scroll on link click (mobile)
+  // Close on link click (mobile)
   list.addEventListener('click', function (e) {
-    if (e.target.tagName === 'A') {
-      toc.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
-    }
+    if (e.target.tagName === 'A') { cb.checked = false; }
   });
 
   // Align TOC so the first link sits level with the first content element (desktop only)
