@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agentic Scenarios - Timeline ASAP</title>
+<style>
+  :root {
+    --bg:     #fafaf7;
+    --paper:  #ffffff;
+    --ink:    #1a1a1a;
+    --ink-2:  #333333;
+    --ink-3:  #555555;
+    --ink-4:  #888888;
+    --rule:   #e8e6df;
+    --cream:  #f7f3e8;
+    --accent: #8b103d;
+    --pop:    #ffc74e;
+    --sans:   -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    --serif:  Georgia, 'Times New Roman', serif;
+    --mono:   'JetBrains Mono', 'Fira Code', ui-monospace, 'Courier New', monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family: var(--sans);
+    line-height: 1.6;
+  }
+
+  /* ── Page shell ── */
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 2rem 6rem;
+  }
+
+  /* ── Document header ── */
+  .doc-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .doc-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-4);
+  }
+
+  .doc-title {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: normal;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 1rem;
+  }
+
+  .doc-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--ink-3);
+    max-width: 560px;
+  }
+
+  /* ── Body content — all markdown targets ── */
+  .doc-body { color: var(--ink-2); }
+
+  .doc-body > * + * { margin-top: 1.25rem; }
+
+  /* Headings */
+  .doc-body h1,
+  .doc-body h2,
+  .doc-body h3,
+  .doc-body h4,
+  .doc-body h5,
+  .doc-body h6 {
+    font-family: var(--serif);
+    font-weight: normal;
+    color: var(--ink);
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+  }
+
+  .doc-body h1 { font-size: 1.9rem; margin-top: 3rem; margin-bottom: 0.75rem; }
+  .doc-body h2 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .doc-body h3 { font-size: 1.1rem; font-family: var(--sans); font-weight: 700; margin-top: 2rem; margin-bottom: 0.4rem; }
+  .doc-body h4 { font-size: 0.9rem; font-family: var(--sans); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); margin-top: 1.75rem; margin-bottom: 0.3rem; }
+  .doc-body h5,
+  .doc-body h6 { font-size: 0.85rem; font-family: var(--sans); font-weight: 600; color: var(--ink-3); margin-top: 1.5rem; }
+
+  /* Paragraph */
+  .doc-body p { font-size: 1rem; line-height: 1.75; }
+
+  /* Links */
+  .doc-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+  .doc-body a:hover { border-color: var(--accent); }
+
+  /* Strong / em */
+  .doc-body strong { font-weight: 700; color: var(--ink); }
+  .doc-body em { font-style: italic; }
+
+  /* Lists */
+  .doc-body ul,
+  .doc-body ol { padding-left: 1.5rem; }
+  .doc-body li { font-size: 1rem; line-height: 1.7; margin-bottom: 0.3rem; }
+  .doc-body li > ul,
+  .doc-body li > ol { margin-top: 0.3rem; }
+
+  /* Blockquote */
+  .doc-body blockquote {
+    border-left: 3px solid var(--accent);
+    padding: 0.75rem 1.25rem;
+    margin-left: 0;
+    background: var(--cream);
+    border-radius: 0 2px 2px 0;
+  }
+  .doc-body blockquote p { color: var(--ink-3); font-style: italic; }
+  .doc-body blockquote p + p { margin-top: 0.5rem; }
+
+  /* Horizontal rule */
+  .doc-body hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  /* Inline code */
+  .doc-body code {
+    font-family: var(--mono);
+    font-size: 0.85em;
+    background: var(--cream);
+    color: var(--accent);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+
+  /* Code block */
+  .doc-body pre {
+    background: #1a1a18;
+    color: #e8e6df;
+    padding: 1.25rem 1.5rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    line-height: 1.55;
+  }
+  .doc-body pre code {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  /* Table */
+  .doc-body table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .doc-body th {
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-4);
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid var(--rule);
+  }
+  .doc-body td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .doc-body tr:last-child td { border-bottom: none; }
+  .doc-body tr:hover td { background: var(--cream); }
+
+  /* Images */
+  .doc-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    display: block;
+  }
+
+  /* ── Table of contents ── */
+  #toc {
+    position: fixed;
+    top: 3.5rem;
+    /* sit just left of the 720px centred content column */
+    left: max(12px, calc(50vw - 560px));
+    width: 164px;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    padding-bottom: 2rem;
+  }
+  .toc-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-4);
+    margin-bottom: 0.75rem;
+  }
+  #toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid var(--rule);
+  }
+  #toc-list li { margin: 0; }
+  #toc-list a {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--ink-4);
+    text-decoration: none;
+    border-bottom: none;
+    padding: 0.3rem 0 0.3rem 0.85rem;
+    transition: color .15s;
+  }
+  #toc-list a:hover { color: var(--ink-2); }
+  #toc-list a[aria-current] { color: var(--ink); font-weight: 600; }
+  #toc-list .toc-h3 > a { padding-left: 1.5rem; font-size: 0.73rem; }
+
+  #toc-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem; left: 1rem;
+    z-index: 101;
+    appearance: none;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    width: 38px; height: 38px;
+    cursor: pointer;
+    align-items: center; justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    color: var(--ink-3);
+    transition: color .15s, background .15s;
+  }
+  #toc-toggle:hover { color: var(--ink); background: var(--cream); }
+  #toc-toggle svg { width: 16px; height: 16px; display: block; }
+
+  @media (max-width: 1080px) {
+    #toc {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      width: auto;
+      max-height: 70vh;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      z-index: 100;
+      padding: 3.5rem 1.5rem 1.5rem;
+      overflow-y: auto;
+    }
+    #toc.open { display: block; }
+    #toc-toggle { display: inline-flex; }
+    #toc-list { border-left: 0; }
+    #toc-list a { padding: 0.5rem 0; font-size: 0.9rem; }
+    #toc-list .toc-h3 > a { padding-left: 1rem; font-size: 0.85rem; }
+  }
+
+  /* ── Value blocks (fenced divs: ::: value) ── */
+  .doc-body .values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-top: 1.5rem;
+  }
+
+  .doc-body .value {
+    background: var(--bg);
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: background .2s;
+  }
+  .doc-body .value:hover { background: var(--cream); }
+
+  /* First <p><strong>01</strong></p> becomes the big number */
+  .doc-body .value > p:first-child {
+    margin: 0;
+    line-height: 1;
+  }
+  .doc-body .value > p:first-child > strong {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--pop);
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+    font-variant-numeric: lining-nums;
+  }
+
+  .doc-body .value h3 {
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .doc-body .value p:not(:first-child) {
+    font-size: 0.875rem;
+    color: var(--ink-3);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ── Print ── */
+  @media print {
+    #toc, #toc-toggle { display: none !important; }
+
+    @page { size: A4; margin: 18mm 20mm; }
+
+    html { background: #fff; font-size: 10.5pt; }
+    .page { max-width: 100%; padding: 0; }
+
+    .doc-header { margin-bottom: 12mm; padding-bottom: 8mm; }
+    .doc-title { font-size: 22pt; }
+    .doc-subtitle { font-size: 10pt; }
+    .doc-meta { font-size: 7pt; margin-bottom: 8mm; }
+
+    .doc-body p,
+    .doc-body li { font-size: 10pt; line-height: 1.6; }
+    .doc-body h1 { font-size: 16pt; }
+    .doc-body h2 { font-size: 13pt; }
+    .doc-body h3 { font-size: 11pt; }
+
+    /* Never break inside these elements — push to next page instead */
+    .doc-body p,
+    .doc-body li,
+    .doc-body blockquote,
+    .doc-body pre,
+    .doc-body table,
+    .doc-body .value {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* Keep headings with the content that follows */
+    .doc-body h1,
+    .doc-body h2,
+    .doc-body h3,
+    .doc-body h4 {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    /* Avoid orphaned/widowed lines in paragraphs */
+    .doc-body p { orphans: 3; widows: 3; }
+
+    .doc-body pre { background: #f5f5f2 !important; color: #111 !important; border: 1px solid #ddd; font-size: 8pt; }
+    .doc-body pre code { color: inherit; }
+    .doc-body a { border-bottom: none; }
+    .doc-body a::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #888; }
+    .doc-body a[href^="#"]::after { content: none; }
+
+    /* Value blocks in print */
+    .doc-body .values { background: transparent; border-color: #ddd; gap: 3mm; }
+    .doc-body .value { background: #f7f3e8 !important; padding: 5mm 6mm; break-inside: avoid; page-break-inside: avoid; }
+    .doc-body .value > p:first-child > strong { font-size: 22pt; }
+    .doc-body .value h3 { font-size: 9pt; }
+    .doc-body .value p:not(:first-child) { font-size: 9pt; }
+
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 600px) {
+    .page { padding: 2.5rem 1.25rem 4rem; }
+    .doc-meta { flex-direction: column; gap: 0.25rem; }
+    .doc-title { font-size: 1.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<button id="toc-toggle" aria-expanded="false" aria-label="Visa innehållsförteckning" hidden>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="2" y1="4" x2="14" y2="4"/>
+    <line x1="2" y1="8" x2="14" y2="8"/>
+    <line x1="2" y1="12" x2="14" y2="12"/>
+  </svg>
+</button>
+
+<nav id="toc" aria-label="Innehållsförteckning" hidden>
+  <p class="toc-label">Innehåll</p>
+  <ul id="toc-list"></ul>
+</nav>
+
+<div class="page">
+
+  <header class="doc-header">
+    <div class="doc-meta">
+      <span class="doc-from"></span>
+      <span class="doc-date">2026-06-18</span>
+    </div>
+    <h1 class="doc-title">Agentic Scenarios - Timeline ASAP</h1>
+    <p class="doc-subtitle"></p>
+  </header>
+
+  <main class="doc-body">
+
+<blockquote>
+<p>[!tldr] Innan hösten har någon ledande kommunikationsgrupp redan
+lanserat i de tre agent-dimensionerna. I Professional Services och
+Corporate Communications ser vi redan ett stort användande av agenter
+utanför det interna stöttandet av medarbetarnas arbetsflöden.</p>
+</blockquote>
+<h2 id="tre-agentdimensioner-under-sommaren">Tre agentdimensioner under
+sommaren</h2>
+<h3 id="a-internkommunikation-via-avatarer">a) Internkommunikation via
+avatarer</h3>
+<ul>
+<li>“Fråga X”-agenten - Seniora ledares trängsta resurs är deras
+bandbredd, samtidigt som deras kompetens snabbar på och förbättrar andra
+medarbetare produktion.</li>
+<li>Många börsnoterade företag har nu byggt och ännu fler bygger agenter
+som fungerar som en avatar för en specifik ledare så att medarbetare kan
+ställa frågor, be om råd och få feedback även när ledaren inte är
+tillgänglig.</li>
+<li>Detta är helt enkelt bara en ny kanal för internkommunikation och
+vem ska man gå till för att få hjälp med internkommunikation? Man borde
+väl vända sig till de som redan är bäst på Corporate Communications? Men
+som vanligt i tech-skiften kan andra spelare rycka till sig
+marknadsandelar.</li>
+<li><strong>Risk:</strong> Stora svenska organisationer går till
+tech-leverantörer eller konkurrenter som profilerat sig som AI-kunniga
+för att få den här typen av avatat-agenter byggda, eftersom de vill att
+delar av deras internkommunikation framgent ska skötas på det här
+sättet.</li>
+<li><strong>Möjlighet:</strong> En kommunikationsbyrån visar att man
+fortsatt har den ledande positionen inom Corporate Communications genom
+att erbjuda kunder att bygga de bästa avatar-agenterna och som arbetar
+enligt en beslutad kommunikationsstrategi.</li>
+</ul>
+<h3 id="b-professional-service-agenter---istället-för-konsulterna">b)
+Professional Service-agenter - istället för konsulterna</h3>
+<ul>
+<li>Precis som under tidigare teknikskiften händer två saker som ruskar
+om en etablerad marknad. Nya firmor som inte har en historia inom
+branschen, men som kan och erbjuder den nya teknologin, tar
+marknadsandelar från de traditionella spelarna. Traditionella spelare
+som tar till sig och använder den nya teknologin slår både de nyanlända
+och sina tidigare etablerade konkurrenter.</li>
+<li>Precis som den AI-jurist som just nu marknadsförs i tunnelbanan
+kommer Corporate Communications innan oktober få se sin första externa
+och brandade kommunikationsagent.</li>
+<li>Istället för att sitta framför en generisk AI-chat eller med en
+agent byggd av företagets kommunikationsavdelning, kommer medarbetare
+kunna chatta direkt med en agent byggd av en bransch-expert. En sådan
+agent borde rimligtvis ge bättre råd och generera bättre artefakter än
+en agent byggd av den kommunikationsavdelning som tidigare vände sig
+till samma konsult.</li>
+<li>Detta kommer att fungera både som marknadsföring och “on-ramp” för
+kunder och en tokenintäkt som tickar även när medarbetare sover. Agenten
+blir den tunna kanten på en kil in på marknaden som gör att kunder kan
+prova med väldigt liten risk. Och även om de bestämmer sig för att
+fortsätta med agenten under en längre tid så betyder det också en intäkt
+som kommunikationsbyrån inte har idag.<br />
+</li>
+<li><strong>Risk:</strong> Precis som juristfirman som nu gör reklam i
+tunnelbanan för sin app, lanserar vassa konkurrenter en eller flera
+agenter i början av hösten som kunder kan accessa som en light-version
+av firmans personliga rådgivning. Detta gör att andra aktörer upplevs
+ligga efter, samtidigt som de förlorar affärer på ett nytt sätt: Kunder
+provar agenten, blir nöjda och fortsätter med ett djupare engagemang hos
+den som hade byggt agenten. (Med största sannolikhet har konkurrenter
+inte sommarlov i år, utan sitter just nu och bygger agenter av denna
+sort.)</li>
+<li><strong>Möjlighet:</strong> Kommunikationsgruppen X lanserar i
+början av hösten en agent, som självklart är branschens ledande agent
+och som ger byrån nya intäktsströmmar och en ny, automatisk on-ramp för
+kunder.</li>
+</ul>
+<h3 id="c-namnkunniga-experter-som-externa-avatarer">c) Namnkunniga
+experter som externa avatarer</h3>
+<ul>
+<li>En tredje agentdimension som redan håller på att växa fram är när en
+erkänd expert – en professor, en välkänd analytiker eller en ledande och
+respekterad branschröst – bygger en agent som bär deras namn och som
+kanaliserar deras kompetens och rådgivning. Detta är helt enkelt “Fråga
+X”-agenten, fast tillgänglig externt.</li>
+<li>Ledande konsultfirmor och universitet använder detta både i
+marknadsföringssyfte (vi ligger i framkant när det gäller AI), för att
+skapa enkla och snabba on-ramps för nya kunder (dyrt, men billigare än
+att boka ett fysiskt möte) och för att generera nya intäktsströmmar
+utanför expertens tillgänglighet.</li>
+<li>Det är en logisk förlängning av hur experter redan monetariserar sin
+kunskap – böcker, föreläsningar, nyhetsbrev – men nu skalas deras
+tillgänglighet upp till 24/7 utan att deras faktiska tid konsumeras. För
+en ledande kommunikationskonsult, som sedan länge har etablerade
+relationer med Sveriges ledande kommunikationsexperter och akademiker,
+är det en naturligt steg att vara den aktör som förmedlar, bygger och
+kvalitetssäkrar den här typen av agenter. Den som har de bästa
+experterna har också de bästa expertagenterna.</li>
+<li><strong>Risk:</strong> 1. Universitet, managementkonsulterna eller
+de namnkunniga experterna själva bygger agenter med hjälp av
+tech-leverantörer och etablerar en ny kategori av AI-native
+“expertplattformar” som kunder kan gå direkt till, utan att passera
+kommunikationskonsulter. 2. En eller flera av byråns direkta
+konkurrenter lanserar agenter byggda på deras grundare eller toppnamn
+senast i september.</li>
+<li><strong>Möjlighet:</strong> Byrån positionerar sig som ledande inom
+denna nya kanal och tillgängliggör expertagenter baserade på sina
+grundare och/eller toppkonsulter.</li>
+</ul>
+
+
+  </main>
+
+</div>
+
+<script>
+(function () {
+  var toc     = document.getElementById('toc');
+  var list    = document.getElementById('toc-list');
+  var toggle  = document.getElementById('toc-toggle');
+  var body    = document.querySelector('.doc-body');
+  if (!body) return;
+
+  // Build TOC from h2 + h3 inside .doc-body
+  var headings = Array.from(body.querySelectorAll('h2, h3'));
+  if (headings.length < 2) return; // no point showing TOC for short docs
+
+  headings.forEach(function (h, i) {
+    if (!h.id) h.id = 'h-' + i + '-' + h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    var li  = document.createElement('li');
+    li.className = h.tagName === 'H3' ? 'toc-h3' : 'toc-h2';
+    var a   = document.createElement('a');
+    a.href  = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  // Show nav and toggle button
+  toc.removeAttribute('hidden');
+  toggle.removeAttribute('hidden');
+
+  // Active section tracking via IntersectionObserver
+  var links = Array.from(list.querySelectorAll('a'));
+  var active = null;
+
+  function setActive(id) {
+    if (active === id) return;
+    active = id;
+    links.forEach(function (a) {
+      if (a.getAttribute('href') === '#' + id) {
+        a.setAttribute('aria-current', 'true');
+      } else {
+        a.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) setActive(entry.target.id);
+    });
+  }, { rootMargin: '0px 0px -70% 0px', threshold: 0 });
+
+  headings.forEach(function (h) { observer.observe(h); });
+
+  // Mobile toggle
+  toggle.addEventListener('click', function () {
+    var open = toc.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  // Close on outside click
+  document.addEventListener('click', function (e) {
+    if (!toc.contains(e.target) && !toggle.contains(e.target)) {
+      toc.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Close and scroll on link click (mobile)
+  list.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      toc.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+}());
+</script>
+
+</body>
+</html>
