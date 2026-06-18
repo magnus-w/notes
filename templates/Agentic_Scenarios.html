@@ -449,7 +449,30 @@
 
   /* ── Print ── */
   @media print {
-    #toc, #toc-toggle { display: none !important; }
+    #toc-toggle { display: none !important; }
+
+    /* TOC as a static block before the content */
+    #toc {
+      display: block !important;
+      position: static !important;
+      width: auto !important;
+      max-height: none !important;
+      padding: 0 0 8mm !important;
+      margin-bottom: 10mm !important;
+      overflow: visible !important;
+      border-bottom: 1px solid #ddd !important;
+      box-shadow: none !important;
+    }
+    .toc-label { font-size: 7pt; margin-bottom: 3mm; }
+    #toc-list { border-left: none !important; }
+    #toc-list a {
+      font-size: 9pt !important;
+      color: #333 !important;
+      padding: 0.2rem 0 !important;
+    }
+    #toc-list a::after { content: none !important; }
+    #toc-list .toc-h3 > a { padding-left: 1rem !important; font-size: 8.5pt !important; }
+    #toc-list a[aria-current] { font-weight: normal !important; }
 
     @page { size: A4; margin: 18mm 20mm; }
 
@@ -724,6 +747,16 @@ grundare och/eller toppkonsulter.</li>
       toggle.setAttribute('aria-expanded', 'false');
     }
   });
+
+  // Align TOC top with the first content element (desktop only)
+  function alignToc() {
+    if (window.innerWidth <= 1080) return;
+    var first = body.firstElementChild;
+    if (!first) return;
+    toc.style.top = Math.round(first.getBoundingClientRect().top) + 'px';
+  }
+  alignToc();
+  window.addEventListener('resize', alignToc);
 }());
 </script>
 
