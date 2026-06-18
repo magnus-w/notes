@@ -206,6 +206,86 @@
     display: block;
   }
 
+  /* ── Table of contents ── */
+  #toc {
+    position: fixed;
+    top: 3.5rem;
+    /* sit just left of the 720px centred content column */
+    left: max(12px, calc(50vw - 560px));
+    width: 164px;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    padding-bottom: 2rem;
+  }
+  .toc-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-4);
+    margin-bottom: 0.75rem;
+  }
+  #toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid var(--rule);
+  }
+  #toc-list li { margin: 0; }
+  #toc-list a {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--ink-4);
+    text-decoration: none;
+    border-bottom: none;
+    padding: 0.3rem 0 0.3rem 0.85rem;
+    transition: color .15s;
+  }
+  #toc-list a:hover { color: var(--ink-2); }
+  #toc-list a[aria-current] { color: var(--ink); font-weight: 600; }
+  #toc-list .toc-h3 > a { padding-left: 1.5rem; font-size: 0.73rem; }
+
+  #toc-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem; left: 1rem;
+    z-index: 101;
+    appearance: none;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    width: 38px; height: 38px;
+    cursor: pointer;
+    align-items: center; justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    color: var(--ink-3);
+    transition: color .15s, background .15s;
+  }
+  #toc-toggle:hover { color: var(--ink); background: var(--cream); }
+  #toc-toggle svg { width: 16px; height: 16px; display: block; }
+
+  @media (max-width: 1080px) {
+    #toc {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      width: auto;
+      max-height: 70vh;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      z-index: 100;
+      padding: 3.5rem 1.5rem 1.5rem;
+      overflow-y: auto;
+    }
+    #toc.open { display: block; }
+    #toc-toggle { display: inline-flex; }
+    #toc-list { border-left: 0; }
+    #toc-list a { padding: 0.5rem 0; font-size: 0.9rem; }
+    #toc-list .toc-h3 > a { padding-left: 1rem; font-size: 0.85rem; }
+  }
+
   /* ── Value blocks (fenced divs: ::: value) ── */
   .doc-body .values {
     display: grid;
@@ -260,6 +340,8 @@
 
   /* ── Print ── */
   @media print {
+    #toc, #toc-toggle { display: none !important; }
+
     @page { size: A4; margin: 18mm 20mm; }
 
     html { background: #fff; font-size: 10.5pt; }
@@ -324,6 +406,20 @@
 </style>
 </head>
 <body>
+
+<button id="toc-toggle" aria-expanded="false" aria-label="Visa innehållsförteckning" hidden>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="2" y1="4" x2="14" y2="4"/>
+    <line x1="2" y1="8" x2="14" y2="8"/>
+    <line x1="2" y1="12" x2="14" y2="12"/>
+  </svg>
+</button>
+
+<nav id="toc" aria-label="Innehållsförteckning" hidden>
+  <p class="toc-label">Innehåll</p>
+  <ul id="toc-list"></ul>
+</nav>
+
 <div class="page">
 
   <header class="doc-header">
@@ -342,5 +438,81 @@
   </main>
 
 </div>
+
+<script>
+(function () {
+  var toc     = document.getElementById('toc');
+  var list    = document.getElementById('toc-list');
+  var toggle  = document.getElementById('toc-toggle');
+  var body    = document.querySelector('.doc-body');
+  if (!body) return;
+
+  // Build TOC from h2 + h3 inside .doc-body
+  var headings = Array.from(body.querySelectorAll('h2, h3'));
+  if (headings.length < 2) return; // no point showing TOC for short docs
+
+  headings.forEach(function (h, i) {
+    if (!h.id) h.id = 'h-' + i + '-' + h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    var li  = document.createElement('li');
+    li.className = h.tagName === 'H3' ? 'toc-h3' : 'toc-h2';
+    var a   = document.createElement('a');
+    a.href  = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  // Show nav and toggle button
+  toc.removeAttribute('hidden');
+  toggle.removeAttribute('hidden');
+
+  // Active section tracking via IntersectionObserver
+  var links = Array.from(list.querySelectorAll('a'));
+  var active = null;
+
+  function setActive(id) {
+    if (active === id) return;
+    active = id;
+    links.forEach(function (a) {
+      if (a.getAttribute('href') === '#' + id) {
+        a.setAttribute('aria-current', 'true');
+      } else {
+        a.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) setActive(entry.target.id);
+    });
+  }, { rootMargin: '0px 0px -70% 0px', threshold: 0 });
+
+  headings.forEach(function (h) { observer.observe(h); });
+
+  // Mobile toggle
+  toggle.addEventListener('click', function () {
+    var open = toc.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  // Close on outside click
+  document.addEventListener('click', function (e) {
+    if (!toc.contains(e.target) && !toggle.contains(e.target)) {
+      toc.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Close and scroll on link click (mobile)
+  list.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      toc.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+}());
+</script>
+
 </body>
 </html>
