@@ -29,6 +29,7 @@ TEMPLATE = Path(__file__).parent / "template.html"
 
 TOC_TOGGLE = """\
 <input type="checkbox" id="toc-cb">
+<label for="toc-cb" id="toc-backdrop"></label>
 <label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
     <line x1="2" y1="4" x2="14" y2="4"/>
