@@ -546,7 +546,7 @@
 <body>
 
 <input type="checkbox" id="toc-cb">
-<label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning" hidden>
+<label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
     <line x1="2" y1="4" x2="14" y2="4"/>
     <line x1="2" y1="8" x2="14" y2="8"/>
@@ -565,9 +565,18 @@
     <p class="doc-subtitle"></p>
   </header>
 
-  <nav id="toc" aria-label="Innehållsförteckning" hidden>
+  <nav id="toc" aria-label="Innehållsförteckning">
     <p class="toc-label">Innehåll</p>
-    <ul id="toc-list"></ul>
+    <ul id="toc-list">
+    <li class="toc-h2"><a href="#tre-agentdimensioner-under-sommaren">Tre agentdimensioner under
+sommaren</a></li>
+    <li class="toc-h3"><a href="#a-internkommunikation-via-avatarer">a) Internkommunikation via
+avatarer</a></li>
+    <li class="toc-h3"><a href="#b-professional-service-agenter---istället-för-konsulterna">b)
+Professional Service-agenter - istället för konsulterna</a></li>
+    <li class="toc-h3"><a href="#c-namnkunniga-experter-som-externa-avatarer">c) Namnkunniga
+experter som externa avatarer</a></li>
+    </ul>
   </nav>
 
   <main class="doc-body">
@@ -689,26 +698,10 @@ grundare och/eller toppkonsulter.</li>
   var toggle  = document.getElementById('toc-toggle');
   var cb      = document.getElementById('toc-cb');
   var body    = document.querySelector('.doc-body');
-  if (!body) return;
+  if (!toc || !list || !body) return;
 
-  // Build TOC from h2 + h3 inside .doc-body
+  // TOC list is pre-built by convert.py — JS only adds active tracking
   var headings = Array.from(body.querySelectorAll('h2, h3'));
-  if (headings.length < 2) return; // no point showing TOC for short docs
-
-  headings.forEach(function (h, i) {
-    if (!h.id) h.id = 'h-' + i + '-' + h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    var li  = document.createElement('li');
-    li.className = h.tagName === 'H3' ? 'toc-h3' : 'toc-h2';
-    var a   = document.createElement('a');
-    a.href  = '#' + h.id;
-    a.textContent = h.textContent;
-    li.appendChild(a);
-    list.appendChild(li);
-  });
-
-  // Show nav and toggle button
-  toc.removeAttribute('hidden');
-  toggle.removeAttribute('hidden');
 
   // Active section tracking via IntersectionObserver
   var links = Array.from(list.querySelectorAll('a'));
