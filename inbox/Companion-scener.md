@@ -30,4 +30,21 @@
 
 ## Cloud Farm 
 > Beskrivningen av Cloud Farms bakgrund ska ändras till att den användes för AI-compute back in the days, men blev överflödig när kvantdatorerna kom med ny teknologi.
-- dd
+- Sen kan det finnas en känga till sociala medier, som också dog när kvantdatorerna och riktig AI kom. 
+- Efter att de landat, flyger Rávga i förväg och lurar iväg spaningsdrönaren när den dyker upp. De har lite drönare-on-drönare-action. 
+- Kanske är Rávga den som upptäcker att det inte längre går att koppla upp sig till S-nätet längre. 
+- Kanske också den som upptäcker spöknätet?
+- Är Rávga med nere i korridorerna? Då kan vi få en sån action-koreofrafi som i stadsstrider. 
+- Försöker Rávga rädda Anna-Lena med misslyckas? Eller är det Rávgas "fel" att hon dör på något sätt?
+
+## Kellys kontor och minneskort
+- Iris bollar med Rávga när William är häktad. 
+- Rávga har åsikter - på något sätt - om att Iris och William hookar upp. Men Rávga vet ju att William är en android. 
+- Kanske finns det något hon och William gör tillsamman, eller i sin interaktion, som Iris sen påpekar när hon berättar för William hur det ligger till?
+
+## Björnbärssylt och Espressobaren
+- Rávga är med när Iris ska handla, kanske letar hon i förväg längs hyllorna, jämför med en online-katalog av hur det ska vara i affären. 
+- Flyger i förväg och kollar att William är där. Interagerar de då? 
+
+## När Iris berättar för William
+- Vad gör Rávga då?
