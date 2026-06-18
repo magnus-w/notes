@@ -27,6 +27,16 @@ from pathlib import Path
 
 TEMPLATE = Path(__file__).parent / "template.html"
 
+TOC_TOGGLE = """\
+<input type="checkbox" id="toc-cb">
+<label for="toc-cb" id="toc-toggle" role="button" tabindex="0" aria-label="Visa innehållsförteckning">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="2" y1="4" x2="14" y2="4"/>
+    <line x1="2" y1="8" x2="14" y2="8"/>
+    <line x1="2" y1="12" x2="14" y2="12"/>
+  </svg>
+</label>"""
+
 
 def parse_frontmatter(text):
     """Return (meta dict, body without frontmatter)."""
@@ -67,6 +77,36 @@ def md_to_html(text):
     return result.stdout
 
 
+def build_toc(content_html):
+    """
+    Parse h2/h3 from pandoc HTML output and return (toc_toggle, toc_nav).
+    Returns ('', '') if fewer than 2 headings found.
+    """
+    headings = re.findall(
+        r'<h([23])[^>]+id="([^"]+)"[^>]*>(.*?)</h\1>',
+        content_html,
+        re.DOTALL,
+    )
+    if len(headings) < 2:
+        return '', ''
+
+    items = []
+    for level, hid, raw_text in headings:
+        text = re.sub(r'<[^>]+>', '', raw_text).strip()
+        cls  = 'toc-h2' if level == '2' else 'toc-h3'
+        items.append(f'    <li class="{cls}"><a href="#{hid}">{text}</a></li>')
+
+    toc_nav = (
+        '  <nav id="toc" aria-label="Innehållsförteckning">\n'
+        '    <p class="toc-label">Innehåll</p>\n'
+        '    <ul id="toc-list">\n'
+        + '\n'.join(items) + '\n'
+        '    </ul>\n'
+        '  </nav>'
+    )
+    return TOC_TOGGLE, toc_nav
+
+
 def convert(src_path, dst_path=None):
     src = Path(src_path)
     if not src.exists():
@@ -87,14 +127,17 @@ def convert(src_path, dst_path=None):
     doc_date = meta.get("date", date.today().isoformat())
 
     content = md_to_html(body)
+    toc_toggle, toc_nav = build_toc(content)
 
     template = TEMPLATE.read_text(encoding="utf-8")
     html = (template
-        .replace("{{title}}",    title)
-        .replace("{{subtitle}}", subtitle)
-        .replace("{{from}}",     sender)
-        .replace("{{date}}",     str(doc_date))
-        .replace("{{content}}",  content)
+        .replace("{{title}}",      title)
+        .replace("{{subtitle}}",   subtitle)
+        .replace("{{from}}",       sender)
+        .replace("{{date}}",       str(doc_date))
+        .replace("{{content}}",    content)
+        .replace("{{toc_toggle}}", toc_toggle)
+        .replace("{{toc_nav}}",    toc_nav)
     )
 
     dst.write_text(html, encoding="utf-8")
