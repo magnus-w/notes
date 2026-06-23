@@ -6,8 +6,8 @@ And first of all so many thanks for putting this together! I've been talking to 
 
 There are only a few things I think  you've missed in the scenario and I'm obviously less than sure how they would affect it. I mention them in order of potential impact:
 
-> [!abstract] Impact
-> Description(TL;DR: The war in Ukraine will not only have geopolitical impact, but is already accelerating military AI dev in EU countries. Increased climate will not be a separate trajectory, but collide with AI resource guzzling. Omställningsfonder will be copied across the EU. And like the release of ChatGPT, we'll see a new Black Swan during this timeframe.) 
+
+> (TL;DR: The war in Ukraine will not only have geopolitical impact, but is already accelerating military AI dev in EU countries. Increased climate will not be a separate trajectory, but collide with AI resource guzzling. Omställningsfonder will be copied across the EU. And like the release of ChatGPT, we'll see a new Black Swan during this timeframe.) 
 
 ## a) The war in Ukraine
 It's mentioned in the "history" part, but then it's almost never mentioned in the scenario. Only by "proxy", when Baltic and Nordic countries are worried about the Russians. Since the Russian economy is smaller than combined ditto of the Nordics, it's not a long shot that a prolonged war will weaken Russia considerably. And apart from the geopolitcal impact on the EU, for this scenario the war has a very hands on effect on AI. 
