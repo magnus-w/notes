@@ -1,4 +1,4 @@
-# Thoughts on Europe 2031
+# Notes on Europe 2031
 
 Hi, 
 
