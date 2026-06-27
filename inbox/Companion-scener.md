@@ -47,4 +47,10 @@
 - Flyger i förväg och kollar att William är där. Interagerar de då? 
 
 ## När Iris berättar för William
-- Vad gör Rávga då?
+- Vad gör Rávga då? Nåt om att hen vetat hela tiden? 
+- Hur manifesterar man det? 
+- Är det ett litet delay mellan tangentklick och bokstav? Dvs inte som i Zed? Kan man ens mäta det?
+- Eller borde Rávga inte vara involverad alls i denna scen, för hen är bara ett vertkyg? Sen kan hen återvända och göra nytta i Singi? 
+
+## I Singi
+- 
