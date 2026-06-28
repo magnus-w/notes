@@ -1,20 +1,20 @@
-# Mail till REBECKA
+# Mail till Rebecka
 
 Subject: Tankar inför höstterminen
 
-Hej,
 
-Jag vill gärna fortsätta under höstterminen och ser fram emot det.
+Hej Rebecka, 
 
-Inför starten har jag ett par funderingar som jag hoppas vi kan ta upp:
+Och hoppas du har en superskön sommar! Jag vill jättegärna fortsätta under höstterminen; kursen var så himla bra och nyttig under de gångna två terminerna!
 
-Under höstterminen uppskattade jag särskilt de pass där vi fick konkreta verktyg att arbeta med — strukturövningar, tekniker och liknande. De saknades under våren, och jag undrar om det finns plats för mer av det även nästa termin, eller om fokus kommer att ligga mer på textkommentarer.
+En fråga inför hösten: Är upplägget tänkt att vara detsamma, det vill säga "text-feedback", eller kommer det att varvas med lite av det vi hade första terminen? Jag tänker på "verktyg" av olika slag.
 
-En annan sak gäller återkopplingen i grupp. Ibland är det svårt att höra allas röster inom den tid vi har. Det skulle kännas bra med en tydligare tidsram per deltagare, så att det blir mer jämlikt.
+(Läste just James Woods om "indirekt tredje person" och annat mycket användbart och blev inspirerad, men du är så mycket bättre på att förklara!)
 
-Slutligen en tanke om vad feedback-rundan ägnar sig åt: detaljer om var en karaktär befinner sig i rummet, eller stavfel, tar plats som kanske bättre kan användas till de dramaturgiska och berättartekniska frågorna. Det är trots allt dit vi vill komma.
+Jag funderade också på om det eventuellt är möjligt att koncentrera den muntliga feedbacken på kärnfrågorna och spara korrfel och "koreografifel" (vem står var när nån annan ser eller gör vad) till skriven feedback  - så där som du gör? 
 
-Tack för en bra termin — ser fram emot att fortsätta.
+Så blir det lättare att hinna med att få höra från alla, plus när man skriver om texten baserat på de större utmaningarna, den eminenta kärnfeedbacken man fått, då försvinner eller ändras ändå så mycket av den text som hade korrfelen...och så kommer nya! :-D
 
-Med vänliga hälsningar,
-Magnus
+
+Allt gott och hoppas du och de dina har det härligt fram till skolstarten! 
+/Magnus
