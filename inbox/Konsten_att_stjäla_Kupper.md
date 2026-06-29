@@ -4,15 +4,15 @@ Här är texten översatt till svenska:
 
 # Episodguide
 
-Varje episod kretsar kring en enskild återhämtningsoperation. Verken är fiktiva men historiskt förankrade. Städerna är verkliga. De juridiska och institutionella ramverk som beskrivs — auktionspraxis, museibestämmelser, försäkringsstrukturer, proveniensdokumentation — är korrekta.
+Varje episod kretsar kring en enskild tavelkupp. Verken är fiktiva men historiskt förankrade. Städerna är verkliga. De juridiska och institutionella ramverk som beskrivs — auktionspraxis, museibestämmelser, försäkringsstrukturer, provenancedokumentation — är korrekta.
 
 ## Episod 1 — La Fille au Châle Rouge
 
 **Målningen:** "La Fille au Châle Rouge" (Flickan med den röda sjalen), olja på duk, tillskriven en mindre postimpressionistisk konstnär, Paris, ca 1921.
 
-### Proveniens
+### Provenans
 
-Förvärvad av en parisisk konsthandlare från en judisk familj 1941 under ockupationstida tvång — familjen behövde ett utresetillstånd som handlaren kunde ordna. Målningen har passerat tre efterföljande försäljningar, var och en med dokumentation som noggrant undviker att nämna 1941. Den hänger för närvarande i en engelsk samlares salong i Mayfair, inköpt på auktion i Genève 2009. Säljarens proveniensbeskrivning täckte perioden 1945 till nutid.
+Förvärvad av en parisisk konsthandlare från en judisk familj 1941 under ockupationstida tvång — familjen behövde ett utresetillstånd som handlaren kunde ordna. Målningen har passerat tre efterföljande försäljningar, var och en med dokumentation som noggrant undviker att nämna 1941. Den hänger för närvarande i en engelsk samlares salong i Mayfair, inköpt på auktion i Genève 2009. Säljarens provenansbeskrivning täckte perioden 1945 till nutid.
 
 ### Öppning
 
@@ -32,7 +32,7 @@ William: *"Den första skulle vara konceptbeviset. Det som talade om för oss om
 
 ### Vad publiken lär sig
 
-Washington-principerna: vad de är, vad de lovade, varför de misslyckades. Hur proveniensdokumentation konstrueras och var luckorna finns. Vad "förvärvad under tvång" innebär juridiskt och varför det är så svårt att bevisa efter åttio år av efterföljande försäljningar.
+Washington-principerna: vad de är, vad de lovade, varför de misslyckades. Hur provenansdokumentation konstrueras och var luckorna finns. Vad "förvärvad under tvång" innebär juridiskt och varför det är så svårt att bevisa efter åttio år av efterföljande försäljningar.
 
 ---
 
@@ -40,7 +40,7 @@ Washington-principerna: vad de är, vad de lovade, varför de misslyckades. Hur 
 
 **Målningen:** "Studie in Blau" (Studie i blått), gouache på papper, tjeckisk modernist, Prag, ca 1935.
 
-### Proveniens
+### Provenans
 
 Konfiskerad från en judisk samlare i Prag efter den tyska ockupationen av Tjeckoslovakien 1938. Samlaren deporterades 1942. Verket passerade genom den tyska statsapparaten till en privat samling i München, sedan till ett österrikiskt museum 1971 via en donation vars ursprung inte undersöktes. Museet är signatär till Washington-principerna. Verket ställs ut.
 
@@ -50,7 +50,7 @@ Anton, ensam, i museets konservatorstudio i Wien. Han är där på legitima grun
 
 ### Berättelsen
 
-Episoden utforskar vad det innebär att stjäla från en offentlig institution — de moraliska och operativa skillnaderna jämfört med en privat samlare. Gruppen är mindre bekväm. Claire är mest kluven; detta är precis den typ av fall Washington-principerna var avsedda att hantera. Hon skrev om det i sin avhandling. Museets ståndpunkt, när Layla hittar de interna kommunikationerna, är att proveniensfrågan är "under granskning". Den har varit under granskning i elva år. Anton har ett specifikt och outsagt förhållande till det här verket — hans farfars familj förlorade saker under samma period, annat land. Han säger inte detta till gruppen.
+Episoden utforskar vad det innebär att stjäla från en offentlig institution — de moraliska och operativa skillnaderna jämfört med en privat samlare. Gruppen är mindre bekväm. Claire är mest kluven; detta är precis den typ av fall Washington-principerna var avsedda att hantera. Hon skrev om det i sin avhandling. Museets ståndpunkt, när Layla hittar de interna kommunikationerna, är att provenansfrågan är "under granskning". Den har varit under granskning i elva år. Anton har ett specifikt och outsagt förhållande till det här verket — hans farfars familj förlorade saker under samma period, annat land. Han säger inte detta till gruppen.
 
 ### Kuppen & komplikationen
 
@@ -62,7 +62,7 @@ William: *"Anton talade aldrig om sin familj. Inte en gång, under hela tiden. J
 
 ### Vad publiken lär sig
 
-Hur offentliga institutioner hanterar provenienstvister. Klyftan mellan att underteckna internationella avtal och att genomföra dem. Vad konserveringsbehandling innebär, och varför tillgång till ett verk under behandling är den mest intima kontakt en icke-ägare kan ha med en målning.
+Hur offentliga institutioner hanterar provenanstvister. Klyftan mellan att underteckna internationella avtal och att genomföra dem. Vad konserveringsbehandling innebär, och varför tillgång till ett verk under behandling är den mest intima kontakt en icke-ägare kan ha med en målning.
 
 ---
 
@@ -70,7 +70,7 @@ Hur offentliga institutioner hanterar provenienstvister. Klyftan mellan att unde
 
 **Målningen:** "Femme à la Fenêtre, Soir" (Kvinna vid fönstret, kväll), olja på duk, fransk, ca 1938.
 
-### Proveniens
+### Provenans
 
 Såld av konstnären själv — en fransk judisk målare — till en konsthandlare 1940 för en bråkdel av sitt värde, i utbyte mot hjälp som utlovades men aldrig gavs. Konstnären dog 1943. Handlarens dödsbo sålde den 1967. Den befinner sig nu i en privat samling i Genève — tekniskt sett en stiftelse, med konsthistorisk betydelse angiven som sitt mandat.
 
@@ -100,7 +100,7 @@ Hur konststiftelser och ägarstrukturer fungerar och varför de är det föredra
 
 **Målningen:** "De Tuin in Oktober" (Trädgården i oktober), olja på panel, holländsk guldålder, ca 1670.
 
-### Proveniens
+### Provenans
 
 Provenienkedjan är lång och till synes ren fram till 1940, då en lucka på sex år uppträder i dokumentationen. Verket dyker upp igen i Amsterdam 1946 i en holländsk kollaboratörs dödsbo. Det har sålts tre gånger sedan dess, varje gång med dokumentation som framställer återuppträdandet 1946 som ett krigsåterförande snarare än ett krigsförvärv. Det tillhör för närvarande en rotterdamsk sjöfartsdynasti.
 
@@ -114,7 +114,7 @@ Episoden är delvis Laylas berättelse — det mest utdragna fokuset på henne v
 
 ### Kuppen & komplikationen
 
-Komplikationen är att någon annan tittar på samma målning — en legitim forskare, anlitad av en arvinge till den ursprunglige ägaren, som självständigt har spårat proveniensluckan och är nära att publicera. Om hon publicerar innan operationen blir målningen en offentlig kontrovers och operationen omöjlig. Om hon publicerar efter att målningen försvunnit blir hon misstänkt. De behöver tajma detta exakt. De behöver också tala med henne utan att berätta något. Layla hanterar detta. Hennes familjs historia av fördrivning ger henne en specifik förtrogenhet med att tala runt saker.
+Komplikationen är att någon annan tittar på samma målning — en legitim forskare, anlitad av en arvinge till den ursprunglige ägaren, som självständigt har spårat provenansluckan och är nära att publicera. Om hon publicerar innan operationen blir målningen en offentlig kontrovers och operationen omöjlig. Om hon publicerar efter att målningen försvunnit blir hon misstänkt. De behöver tajma detta exakt. De behöver också tala med henne utan att berätta något. Layla hanterar detta. Hennes familjs historia av fördrivning ger henne en specifik förtrogenhet med att tala runt saker.
 
 ### Berättarfragment
 
@@ -122,7 +122,7 @@ William: *"Layla var den som kunde tala med forskaren utan att ljuga för henne.
 
 ### Vad publiken lär sig
 
-Hur proveniensluckor skapas, upprätthålls och slutligen hittas. De specifika mekanismer genom vilka holländska guldåldersverk plundrades och hur många som fortfarande finns i holländska institutionella och privata samlingar. Skillnaden mellan en målning med en lucka i sin dokumentation och en med en förfalskad.
+Hur provenansluckor skapas, upprätthålls och slutligen hittas. De specifika mekanismer genom vilka holländska guldåldersverk plundrades och hur många som fortfarande finns i holländska institutionella och privata samlingar. Skillnaden mellan en målning med en lucka i sin dokumentation och en med en förfalskad.
 
 ---
 
@@ -130,7 +130,7 @@ Hur proveniensluckor skapas, upprätthålls och slutligen hittas. De specifika m
 
 **Målningen:** "Bildnis Einer Unbekannten" (Porträtt av en okänd kvinna), olja på duk, österrikisk, ca 1912.
 
-### Proveniens
+### Provenans
 
 Wien, 1938. En framstående judisk bankfamiljs samling, beslagtagen enligt Nürnberglagarna inom veckor efter Anschluss. Porträttet passerade genom Führermuseum-röret — avsett för Hitlers planerade museum i Linz — och avleddes under krigets sista månader till ett privat gömsle. Dess efterkrigsresa är dunkel på ett sätt som antyder medveten fördunkling. Det ägs nu av en europeisk samlare med kontakter till flera regeringar. Han är inte någon som förlorar saker med grace.
 
@@ -144,7 +144,7 @@ Den femte episoden är där serien drar åt. Samlaren är inte ett museum eller 
 
 ### Kuppen & komplikationen
 
-Operationen lyckas. Porträttet når Wiens proveniensforskakommission, anonymt, med dokumentation. Det andra verket nämns inte i operationens debrief. I berättarramen pausar William innan han svarar på en fråga om Wien. Intervjuaren noterar det. Publiken också.
+Operationen lyckas. Porträttet når Wiens provenansforskakommission, anonymt, med dokumentation. Det andra verket nämns inte i operationens debrief. I berättarramen pausar William innan han svarar på en fråga om Wien. Intervjuaren noterar det. Publiken också.
 
 ### Berättarfragment
 
@@ -152,7 +152,7 @@ William: *"Wien är det jag tänker på. Inte på grund av vad som gick fel — 
 
 ### Vad publiken lär sig
 
-Führermuseum-projektet och den skala av planerad kulturell appropriering det representerade. Den österrikiska regeringens specifika och komplicerade förhållande till restitution. Hur proveniensforskakommissioner fungerar och varför de kroniskt är underfinansierade.
+Führermuseum-projektet och den skala av planerad kulturell appropriering det representerade. Den österrikiska regeringens specifika och komplicerade förhållande till restitution. Hur kommisioner av provenansforskare fungerar och varför de kroniskt är underfinansierade.
 
 ---
 
@@ -160,7 +160,7 @@ Führermuseum-projektet och den skala av planerad kulturell appropriering det re
 
 **Målningen:** "O Jardim das Laranjeiras" (Apelsinlunden), olja på duk, portugisisk, ca 1928.
 
-### Proveniens
+### Provenans
 
 Målningens ursprunglige ägare var en sefardisk judisk familj i Lissabon med affärsförbindelser över hela Europa. Verket beslagtogs inte utan såldes 1943 under ekonomisk press skapad av krigets störning av familjens affärsverksamhet — tekniskt sett en frivillig försäljning, i praktiken inte. Dess juridiska status är den mest tvetydiga av alla verk i serien. Portugal undertecknade Washington-principerna. Målningen ägs av en lissabonsk institution som känner till historiken och har intagit ståndpunkten att försäljningen var frivillig och därför giltig.
 
@@ -170,7 +170,7 @@ William ensam i intervjurummet. Intervjuaren frågar: "Varför Lissabon?" Willia
 
 ### Berättelsen
 
-Den sista operationen är den mest juridiskt och moraliskt komplexa. Tvetydigheten kring försäljningen — tekniskt frivillig, praktiskt tvingad — innebär att gruppen saknar ett rent proveniensmässigt argument, bara ett mänskligt. Claire tar detta personligt på ett nytt sätt; familjen Marchands målning i den första episoden såldes också under tekniskt lagligt tvång. Episoden speglar början. I berättarramen tar intervjun en vändning: en fråga ställs om ett specifikt verk — inte Lissabonmålningen, utan det andra verket från Wien. William stelnar. Han rekonstruerar vad intervjuaren vet, vad frågan innebär, vem som skickat dem.
+Den sista operationen är den mest juridiskt och moraliskt komplexa. Tvetydigheten kring försäljningen — tekniskt frivillig, praktiskt tvingad — innebär att gruppen saknar ett rent provenansmässigt argument, bara ett mänskligt. Claire tar detta personligt på ett nytt sätt; familjen Marchands målning i den första episoden såldes också under tekniskt lagligt tvång. Episoden speglar början. I berättarramen tar intervjun en vändning: en fråga ställs om ett specifikt verk — inte Lissabonmålningen, utan det andra verket från Wien. William stelnar. Han rekonstruerar vad intervjuaren vet, vad frågan innebär, vem som skickat dem.
 
 ### Kuppen & komplikationen
 
