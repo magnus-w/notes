@@ -1,0 +1,3 @@
+# Task files are append-only line lists. Union-merge them so adding tasks on
+# two machines concatenates both sides instead of raising a merge conflict.
+todo/*.txt merge=union
