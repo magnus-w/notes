@@ -15,8 +15,8 @@ fi
 export NOTES_REPO
 export TODOTXT_CFG_FILE="$NOTES_REPO/shell/todo.cfg"
 
-alias todo='todo.sh'
-
+alias todo='todo-txt'
+ 
 # Completion ships with todo.txt-cli but lands in a different place on every
 # platform, so take the first one that exists. zsh needs the bash compat layer.
 if [ -n "$ZSH_VERSION" ]; then
