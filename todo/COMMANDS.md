@@ -11,48 +11,50 @@
 | **do** | `todo do 3` — Mark task #3 as done |
 | **done** | `todo done 3` — Mark task #3 as done (same as do) |
 | **rm** | `todo rm 3` — Delete task #3 |
-| **append** (or **a**) | `todo a 3 "additional text"` — Append text to task #3 |
-| **prepend** (or **p**) | `todo p 3 "text at start"` — Prepend text to task #3 |
+| **del** | `todo del 3` — Delete task #3 (same as rm) |
+| **append** | `todo append 3 "additional text"` — Append text to task #3 |
+| **prepend** | `todo prepend 3 "text at start"` — Prepend text to task #3 |
 | **replace** | `todo replace 3 "New task text"` — Replace entire task #3 |
-| **edit** | `todo edit 3` — Open task #3 in `$EDITOR` |
-| **prioritize** | `todo prioritize 3 A` — Set task #3 to priority A (A-Z, where A is highest) |
-| **deprioritize** | `todo deprioritize 3` — Remove priority from task #3 |
+| **pri** | `todo pri 3 A` — Set task #3 to priority A (A-Z, where A is highest) |
+| **depri** | `todo depri 3` — Remove priority from task #3 |
 
 ## Filtering & Search
 
 | Command | Usage |
 |---------|-------|
-| **lf** | `todo lf pattern` — List task IDs matching pattern |
-| **listfile** | `todo listfile "filename"` — List tasks from a specific file |
 | **listcon** | `todo listcon` — List all contexts (@-prefixed tags) |
 | **listproj** | `todo listproj` — List all projects (+prefixed tags) |
+| **listall** | `todo listall [TERM]` — List all including archived tasks |
+| **listfile** | `todo listfile [FILE] [TERM]` — List tasks from a specific file |
 
 ## Other
 
 | Command | Usage |
 |---------|-------|
-| **help** | `todo help` — Show all commands |
-| **report** | `todo report` — Show task statistics |
+| **help** | `todo help` — Show detailed help |
 | **shorthelp** | `todo shorthelp` — Brief command summary |
-| **version** | `todo version` — Show version |
+| **report** | `todo report` — Show task statistics |
+| **archive** | `todo archive` — Move done tasks to done.txt |
 
-## To edit an existing task specifically:
-
-```bash
-todo edit 3        # Opens task #3 in your default editor
-```
-
-Or without opening an editor:
+## To edit an existing task:
 
 ```bash
 todo replace 3 "New task text"    # Replace entire task
-todo a 3 " +newproject @newtag"   # Append to task #3
+todo append 3 " +newproject @newtag"   # Append to task #3
+todo prepend 3 "URGENT: "              # Prepend to task #3
 ```
 
-## List tasks with IDs:
+**Note:** There is no interactive `edit` command that opens an editor. Use `replace`, `append`, or `prepend` instead, or edit `todo.txt` directly.
+
+## Sync your changes
+
+After editing with the `todo` CLI, run:
 
 ```bash
-todo ls
+todoc
 ```
 
-This shows all tasks with their IDs, so you can reference them in commands.
+This commits task changes separately, then syncs the whole repo:
+- Commits `todo/` as `"todo: update <timestamp>"`
+- Commits everything else as `"notes: sync <timestamp>"`
+- Pulls and pushes to remote
