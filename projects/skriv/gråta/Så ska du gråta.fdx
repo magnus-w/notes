@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Script" Template="No" Version="6">
+
+  <DocumentRef DateTime="20260405T100823" id="e6b2571e-6dab-423c-9899-d160bd8ae975">
+    <XRef DateTime="20260806T152705" id="84e8d0c6-6a6d-4d64-bbe7-72f3fe0440d8"/>
+  </DocumentRef>
+
+  <Content>
+    <Paragraph Type="Scene Citation" id="baeee414-edde-45f8-8cc7-b8a1f4a987b9">
+      <Text>IncHeckningen på en flygplats</Text>
+    </Paragraph>
+    <Paragraph Type="Notations" id="7b585e07-b954-4509-8ca4-d84e1d421f0d">
+      <Text>Det är HELT MÖRKT. Vi hör AVLÄGSNA STADSLJUD, som genom ett fönster på glänt långt upp i ett högt hus. Trafik, bilar som tutar. Genom kakafonin urskiljer vi ibland POLISSIRENER av det slag vi känner igen från amerikanska filmer.</Text>
+    </Paragraph>
+    <Paragraph Type="Notations" id="3dc9d83c-d62d-4e91-9bf6-aa31e96f5888">
+      <Text>En telefon RINGER och någon lyfter luren, så det var inte en mobil. </Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="35e47945-683b-40f4-a178-e14da84e01c5">
+      <Text>William</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="cea3deed-4126-4bd2-9135-91c75a92c1cf">
+      <Text>(</Text>
+      <Text AdornmentStyle="-1">entering</Text>
+      <Text>)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="65b66aeb-4886-4a9a-8e7f-59b55227569b">
+      <Text>Ja? Nej, inte ännu. </Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="c2cee790-25e0-42ff-ac59-a726bd4fad96">
+      <Text>(paus)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="65b66aeb-4886-4a9a-8e7f-59b55227569b">
+      <Text>När kommer han då? </Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="dc7201ed-0429-42e3-ab73-a0958e0811ed">
+      <Text>(ett beat)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="65b66aeb-4886-4a9a-8e7f-59b55227569b">
+      <Text>Jamen då så. Perfekt. </Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="5da6a471-66f7-4034-9c38-fa96ad51de98">
+      <Text>(kort paus)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="65b66aeb-4886-4a9a-8e7f-59b55227569b">
+      <Text>Du kan väl hämta upp nåt att äta? Han är säkert hungrig efter flighten. </Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="4d09f1d5-d0cc-4362-b4cb-8ebce8909dc0">
+      <Text>(paus)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="65b66aeb-4886-4a9a-8e7f-59b55227569b">
+      <Text>Det är klart jag har, Marcia. Det är </Text>
+      <Text Style="Italic">jag</Text>
+      <Text> som säger till vad du ska göra, inte tvärtom.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="dfef2373-42f4-41e3-9f86-7826688bb4f5">
+      <Text>Vi hör någon LÄGGA PÅ luren. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="393ce5f1-a6bf-4a7f-8b06-c8a24cbc0b58">
+      <Text>På en halvgenomskinlig ridå TÄNDS en projektion upp som får oss att sitta framför en stor stjärnhimmel. Framför den LYSER strålkastare upp en trio med trummor, kontrabas och piano som börjar SPELA introt till en en </Text>
+      <Text AdornmentStyle="-1">uptempo-version</Text>
+      <Text> av “Fly Me to the Moon” medan en KVINNA i </Text>
+      <Text AdornmentStyle="-1">50-talskostym</Text>
+      <Text> kliver in på scenen  och börjar sjunga.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e98f7471-da21-41dc-ad7b-8006407a89f3">
+      <Text>Efter två verser slår de AV, samtidigt som scenen bakom stjärnhimmeln TÄNDS UPP och då försvinner stjärnhimmeln.  </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1e744d6b-1f25-4f13-b850-605b4f70e9f2">
+      <Text>Hela scenens bakkant är en vägg av höga LED-skärmar. I en lång rad visar de den ena incheckningsdisken efter den andra med namn på olika flygbolag i bjärta färger på skyltar ovanför diskarna. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="0c386eec-4390-432e-9fe2-297462b88e48">
+      <Text>Scenarbetare rullar ut trumsetet och pianot till höger på de vagnar det visar sig att de stod på. Från vänster rullar andra scenarbetare samtidigt in tre fysiska incheckningsdiskar och ställer dem på den vänstra scenhalvan. Ovanför dem bär röda skyltar en vit logotyp i lite svängig skrivstil med texten “Varan Air”; i tur och ordning följt av “First”, “Business” och “</Text>
+      <Text AdornmentStyle="-1">Economy</Text>
+      <Text>” för respektive disk.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="dff157dd-4499-4dbc-bce9-d6f5c740a1d1">
+      <Text>Precis när musiker och utrustning försvinner ut till höger möter ANNA dem </Text>
+      <Text>i</Text>
+      <Text> dörren och går in på scenen. Hon är nyss fyllda trettio, men ser äldre ut i en parant, </Text>
+      <Text AdornmentStyle="-1">nougatfärgad</Text>
+      <Text> dräkt med kort kjol och matchande jacka. Dyra skor med klackar och brun, matchande Louise Vuitton-duffel och </Text>
+      <Text AdornmentStyle="-1">tote</Text>
+      <Text>.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="b7d91e9e-aa0a-404d-be61-069f8664f2df">
+      <Text>[Ska hon bara ha “en </Text>
+      <Text AdornmentStyle="-1">nougatfärgad</Text>
+      <Text> dräkt och matchande Louise </Text>
+      <Text AdornmentStyle="-1">Vuitton-baggage</Text>
+      <Text>”?]</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="998b34de-344f-4c5b-bd01-6782ef4c8d5e">
+      <Text>In från vänster kommer samtidig JELENA; strax över trettio, men ser till skillnad från Anna yngre ut i slitna märkesjeans, Le </Text>
+      <Text AdornmentStyle="-1">Coque</Text>
+      <Text> </Text>
+      <Text AdornmentStyle="-1">Sportif-sneakers</Text>
+      <Text> och </Text>
+      <Text AdornmentStyle="-1">t-shirt</Text>
+      <Text> med trycket “</Text>
+      <Text AdornmentStyle="-1">STFU</Text>
+      <Text> University” eller liknande. Men hon har vackra armband och dito örhängen.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="c62548a3-d7f9-4de0-b001-1b35b262c6aa">
+      <Text>När de får syn på varandra börjar de vinka och skynda på stegen.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="c10fa363-f3fc-417a-b66c-0a8b1b197e57">
+      <Text>Anna</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="bc821563-b159-462a-9875-07140651223e">
+      <Text>Jelena! Jag tror knappt mina...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="c9b0f1b6-a40e-48c9-837b-a7319d49136b">
+      <Text>jelena</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="e3c7a0e6-ff6c-45d7-85e1-e1dfd78b6ea7">
+      <Text>Anna! Vad härligt att...</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="edabfb90-31a9-404c-98bc-b603d03278bf">
+      <Text>Medan tre personer kommer in och ställer sig i kö framför Business-disken, hastar Anna och Jelena mot varandra tills de möts framför den kön. De släpper väskorna till golvet och faller i varandras armar.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="1b002429-26aa-47dd-b822-37ccf8b25b3a">
+      <Text>Anna</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="23a69866-07ce-4167-ba3a-8043bc59b51a">
+      <Text>Jag har saknat dig! </Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="66c5cb0c-1017-44e7-b8a6-074118868c96">
+      <Text>JELENA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="3a1c1348-486e-4cf9-84bc-4c44588eab96">
+      <Text>Och jag har saknat dig så!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="0c987cf7-a29a-46c8-bbdc-0dd4d66eb216">
+      <Text>De tittar på varandra med raka armar utsträckta emellan sig, och sen kramas de igen. Lite för länge och lite för intimt när de blir avbrutna av att TVÅ MÄN kommer fram till kön till Business-disken. Anna vänder sig till den som är klädd i kavaj, blå skjorta och mörkblå jeans.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="eb24f033-1fe8-475e-ae34-09b905546f74">
+      <Text>Anna</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="72710730-bc60-4f61-bd4e-b24bbb138bad">
+      <Text>Har du allas...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="49f47d42-22b5-4ea9-a03b-2d46f8979ca7">
+      <Text>Thomas</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="59964521-6869-4ac3-9f4e-e386cc2c1fdd">
+      <Text>Mmmm?</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="7cd30b18-8b68-4db8-bec1-d8e49e2cf200">
+      <Text>Anna</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="15ebfe5a-df6c-48bc-afe3-8ab7419a2895">
+      <Text>...biljetter? Har du biljetterna, Thomas? </Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="a1ded9a8-d11a-4917-b56d-a6ee9a3a37fe">
+      <Text>THOMAS</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="0e62cb57-ba4d-4d7e-956f-e56a2325f0b2">
+      <Text>Hur menar du? Det är väl ingen som...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="6c2599ba-7804-4a0b-bce9-6f71d85f2fbf">
+      <Text>Högtalare</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="64bd9611-d7fa-4b8f-ae79-571623c99878">
+      <Text>Sista utrop: Plan 714 till Sidney avgår strax från gate C12.</Text>
+    </Paragraph>
+  </Content>
+
+  <Watermarking Opacity="70" Position="Diagonal Descending">
+    <DynamicContent>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="fa39624a-a3fa-4a55-a63e-def0eb44c287"/>
+    </DynamicContent>
+    <Distribution>
+      <Name></Name>
+    </Distribution>
+    <WatermarkImage Height="144"></WatermarkImage>
+  </Watermarking>
+
+  <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="Yes" StartingPage="1">
+    <Header>
+      <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="d2bc0a90-59a7-4f4d-b260-c42e416a7871">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">.</Text>
+        <DynamicLabel AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+      </Paragraph>
+    </Header>
+    <Footer>
+      <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="d921a750-57d5-4350-bf63-f3490247e95e">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""> </Text>
+      </Paragraph>
+    </Footer>
+  </HeaderAndFooter>
+
+  <SpellCheckIgnoreLists>
+    <IgnoredRanges/>
+    <IgnoredWords/>
+  </SpellCheckIgnoreLists>
+
+  <PageLayout BottomMargin="72" BreakDialogueAndActionAtSentences="Yes" DocumentLeading="Normal" FooterMargin="36" HeaderMargin="36" InvisiblesColor="#808080808080" TopMargin="72" UsesSmartQuotes="Yes">
+    <PageSize Height="11.00" Width="8.50"/>
+    <AutoCastList AddParentheses="Yes" AutomaticallyGenerate="Yes" CastListElement="Cast List"/>
+  </PageLayout>
+
+  <WindowState Height="919" Left="0" Mode="Normal" Top="4" Width="925"/>
+
+  <TextState Scaling="100" Selection="1977,1977" ShowInvisibles="No"/>
+
+  <ElementSettings Type="General">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="General"/>
+    <Behavior PaginateAs="General" ReturnKey="General" Shortcut="0" TabKey="" WinShortcut="0"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Scene Heading">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Scene Heading"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="1" TabKey="" WinShortcut="1"/>
+    <Outline CanHide="No" Level="2"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Action">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="4.25" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="2" TabKey="" WinShortcut="2"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Character">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="4.00" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Character"/>
+    <Behavior PaginateAs="Character" ReturnKey="Dialogue" Shortcut="3" TabKey="" WinShortcut="3"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Parenthetical">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="-0.04" Leading="Regular" LeftIndent="3.62" RightIndent="6.38" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Parenthetical"/>
+    <Behavior PaginateAs="Parenthetical" ReturnKey="Dialogue" Shortcut="4" TabKey="" WinShortcut="4"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Dialogue">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Dialogue"/>
+    <Behavior PaginateAs="Dialogue" ReturnKey="Action" Shortcut="5" TabKey="" WinShortcut="5"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Transition">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="5.50" RightIndent="7.12" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Transition"/>
+    <Behavior PaginateAs="Transition" ReturnKey="Scene Heading" Shortcut="6" TabKey="" WinShortcut="6"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Shot">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Shot"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="7" TabKey="" WinShortcut="7"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Cast List">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Cast List"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="8" TabKey="" WinShortcut="8"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="New Act">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="Yes" Type="New Act"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="9" TabKey="" WinShortcut="9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Sequence">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Sequence"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="Ctrl+8" TabKey="" WinShortcut="Shift+8"/>
+    <Outline CanHide="No" Level="4"/>
+  </ElementSettings>
+
+  <ElementSettings Type="End of Act">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="End of Act"/>
+    <Behavior PaginateAs="Character" ReturnKey="New Act" Shortcut="Ctrl+9" TabKey="" WinShortcut="Shift+9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Summary">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Times New Roman" RevisionID="0" Size="12" Style="HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Summary"/>
+    <Behavior PaginateAs="Outline Body" ReturnKey="Summary" Shortcut="Ctrl+0" TabKey="" WinShortcut="Shift+0"/>
+    <Outline CanHide="Yes" Level="0"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 1">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Times New Roman" RevisionID="0" Size="16" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="16" Spacing="1" StartsNewPage="No" Type="Outline 1"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+1" TabKey="" WinShortcut="Shift+1"/>
+    <Outline CanHide="Yes" Level="7"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 2">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Times New Roman" RevisionID="0" Size="14" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.12" RightIndent="7.50" SpaceBefore="14" Spacing="1" StartsNewPage="No" Type="Outline 2"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+2" TabKey="" WinShortcut="Shift+2"/>
+    <Outline CanHide="Yes" Level="5"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 3">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Times New Roman" RevisionID="0" Size="12" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.38" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Outline 3"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+3" TabKey="" WinShortcut="Shift+3"/>
+    <Outline CanHide="Yes" Level="3"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Note">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Times New Roman" RevisionID="0" Size="12" Style="Italic+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.62" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Note"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+4" TabKey="" WinShortcut="Shift+4"/>
+    <Outline CanHide="Yes" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Scene Citation">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="0.50" RightIndent="8.00" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Scene Citation"/>
+    <Behavior PaginateAs="Action" ReturnKey="Notations" Shortcut="" TabKey="" WinShortcut=""/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Notations">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="4.25" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Notations"/>
+    <Behavior PaginateAs="Action" ReturnKey="Character" Shortcut=";" TabKey="" WinShortcut=";"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <TitlePage>
+    <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="No" StartingPage="1">
+      <Header>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="06dfa79a-d29b-435e-9000-cdccfa42efca">
+          <DynamicLabel AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+          <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">.</Text>
+        </Paragraph>
+      </Header>
+      <Footer>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="1909e9f2-3e5a-4c29-827e-572d0043742d">
+          <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""> </Text>
+        </Paragraph>
+      </Footer>
+    </HeaderAndFooter>
+    <Content>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="0812c784-53ec-42c7-9d07-4cff345737c3"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="b7b12a21-b08a-43c4-a614-81706a0e8254"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="c81fee36-240b-4ef8-b568-5e07978c53f2"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="c91a0b39-b044-41d3-ad88-0e886ac7255b"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="b5eafc53-396c-41a5-b3d2-0117aa0feb01"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="5958c8ad-9dee-4e56-bf06-15cd7e698964"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="13bb0bab-5f6e-4b73-9340-e9dcac49052d"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="b297656d-a4bf-42df-9694-726fcfd6e15c"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="608d9812-8d60-409e-9466-b105a1cebcb0"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="fd16a764-a017-41ee-8e5c-894a4965c744"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="34da3a96-4974-4e91-9219-e319af099804">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Så ska du gråta</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="37cea598-cbec-4b12-993b-a037ea74c42d"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="b96f6995-2965-4b9c-9096-2a1a0ef00570">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">__________________________</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="a36af41b-567b-4ef2-918e-2c52365159cc"/>
+      <Paragraph Alignment="Center" FirstIndent="-3.00" Leading="Regular" LeftIndent="4.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="4642eda0-b75a-4bd1-920d-c0c64e14fa6b">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">	</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="-3.00" Leading="Regular" LeftIndent="4.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="61ce84e9-f01a-4d24-b11f-622e340d3d71">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">A full-length play</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="-3.00" Leading="Regular" LeftIndent="4.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="2e607729-5cb7-4d2d-80e8-6e280bd3df6f"/>
+      <Paragraph Alignment="Center" FirstIndent="-3.00" Leading="Regular" LeftIndent="4.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="1678acb2-0c5b-487e-8ebb-62f3db8e8b2b">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">By Your Name here</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="aeb35091-784a-4bbe-940f-22c4c2ebd6b7"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="d31dc678-af4e-409c-9248-9998b48fe3d5"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="61667dc7-eef7-4a2c-8b61-b97c80b3fc3b"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="1efa37b7-ab68-49a3-9545-b1806db3af22"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="c9460f8f-ae9d-4a7d-a404-e9ab33edff09"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="e1a617ac-3b58-402b-abb7-b7acfc1c107d"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="4b99432d-6732-45a1-a177-8c185c4a6745"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="09f3b0a4-9f44-4dc6-8114-89182c6cb58c"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="9cdf158d-c479-4a82-a4c2-9137105b5003"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="1e0be941-555f-4702-904e-90139a2f66a0">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Contact:</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="772bed0c-a419-42d3-af4e-46db9a138e0b">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Your Name</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="a48a82b5-ead8-4c4c-a1d5-3267a327e073">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Address</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="8411283c-1fa1-41f6-810d-73c5246765f1">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Phone</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="4900c39f-608d-4b20-9619-90534b2c4207">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Email</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="28808f2d-5800-4cc1-8c40-8388e44d01b4"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="fc9e153e-8754-44b1-b8f0-00f00dccbb29">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">&lt;&lt; OR &gt;&gt;</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="dde31134-fe9f-4443-a388-61f7c5c451a2"/>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="7f656977-e1b8-4e3d-9d76-dd64b6140dce">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Represented by:</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="d0012609-9736-4449-9121-5be45c07ccb4">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">Mary Agent</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="15720142-0c4b-402a-8fa6-4b88bf1f7500">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">The Mary Agency</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="ebdc077c-7192-4c8c-8417-7e7abcd7a5b7">
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">123 Main Street</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="4.12" Leading="Regular" LeftIndent="1.00" OutlineLevel="0" RightIndent="8.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="e1b10857-e571-46dc-9652-010e941c00d9">
+        <Text AdornmentStyle="-1" Font="Times New Roman" RevisionID="0" Size="12" Style="">Anytown</Text>
+        <Text AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style="">, USA  11111</Text>
+      </Paragraph>
+    </Content>
+    <TextState Scaling="100" Selection="0,0" ShowInvisibles="No"/>
+  </TitlePage>
+
+  <SmartType>
+    <Characters>
+      <Character>ANNA</Character>
+      <Character>JELENA</Character>
+      <Character>THOMAS</Character>
+      <Character>WILLIAM</Character>
+      <Character>HÖGTALARE</Character>
+      <Character>Jane</Character>
+      <Character>Bill</Character>
+    </Characters>
+    <Extensions>
+      <Extension>(V.O.)</Extension>
+      <Extension>(O.S.)</Extension>
+      <Extension>(O.C.)</Extension>
+      <Extension>(SUBTITLE)</Extension>
+    </Extensions>
+    <SceneIntros Separator=". ">
+      <SceneIntro>INT</SceneIntro>
+      <SceneIntro>EXT</SceneIntro>
+      <SceneIntro>I/E</SceneIntro>
+    </SceneIntros>
+    <Locations/>
+    <TimesOfDay Separator=" - ">
+      <TimeOfDay>DAY</TimeOfDay>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <TimeOfDay>AFTERNOON</TimeOfDay>
+      <TimeOfDay>MORNING</TimeOfDay>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <TimeOfDay>LATER</TimeOfDay>
+      <TimeOfDay>MOMENTS LATER</TimeOfDay>
+      <TimeOfDay>CONTINUOUS</TimeOfDay>
+      <TimeOfDay>THE NEXT DAY</TimeOfDay>
+    </TimesOfDay>
+    <Transitions>
+      <Transition>AT RISE:</Transition>
+      <Transition>BLACKOUT.</Transition>
+      <Transition>FADE UP:</Transition>
+      <Transition>LIGHTS DIM.</Transition>
+      <Transition>LIGHTS FADE.</Transition>
+      <Transition>LIGHTS OUT.</Transition>
+      <Transition>LIGHTS UP ON:</Transition>
+    </Transitions>
+  </SmartType>
+
+  <MoresAndContinueds>
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    <DialogueBreaks AutomaticCharacterContinueds="No" BottomOfPage="No" DialogueBottom="(MORE)" DialogueTop="(CONT'D)" TopOfNext="No"/>
+    <SceneBreaks ContinuedNumber="No" SceneBottom="(CONTINUED)" SceneBottomOfPage="No" SceneTop="CONTINUED:" SceneTopOfNext="No"/>
+  </MoresAndContinueds>
+
+  <LockedPages/>
+
+  <Revisions ActiveSet="1" Location="7.75" RevisionMode="No" RevisionsShown="Active" ShowPageColor="No">
+    <Revision FullRevision="No" ID="1" Mark="*" Name="Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="2" Mark="*" Name="Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="3" Mark="*" Name="Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="4" Mark="*" Name="Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="5" Mark="*" Name="Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="6" Mark="*" Name="Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="7" Mark="*" Name="Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="8" Mark="*" Name="Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="9" Mark="*" Name="Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+    <Revision FullRevision="No" ID="10" Mark="*" Name="2nd White Rev. (mm/dd/yy)" PageColor="#FFFFFFFFFFFF" Style=""/>
+    <Revision FullRevision="No" ID="11" Mark="*" Name="2nd Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="12" Mark="*" Name="2nd Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="13" Mark="*" Name="2nd Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="14" Mark="*" Name="2nd Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="15" Mark="*" Name="2nd Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="16" Mark="*" Name="2nd Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="17" Mark="*" Name="2nd Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="18" Mark="*" Name="2nd Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="19" Mark="*" Name="2nd Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+  </Revisions>
+
+  <SplitState ActivePanel="1" CardsAcross="2" ShowAction="Yes" ShowSceneTitle="Yes" ShowSummary="Yes" SplitMode="None" SplitterPosition="0">
+    <ScriptPanel DisplayMode="Page">
+      <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+    </ScriptPanel>
+  </SplitState>
+
+  <Macros>
+    <Macro Element="Scene Heading" Name="INT" Shortcut="Ctrl+Alt+1" Text="INT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="EXT" Shortcut="Ctrl+Alt+2" Text="EXT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="I/E" Shortcut="Ctrl+Alt+3" Text="I/E " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="DAY" Shortcut="Ctrl+Alt+4" Text=" - DAY" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="NIGHT" Shortcut="Ctrl+Alt+5" Text=" - NIGHT" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="SUNRISE" Shortcut="Ctrl+Alt+6" Text=" - SUNRISE" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="MAGIC" Shortcut="Ctrl+Alt+7" Text=" - MAGIC" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="CONT" Shortcut="Ctrl+Alt+8" Text="continuing" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="INTER" Shortcut="Ctrl+Alt+9" Text="interrupting" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="Ctrl+Alt+0" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="CUTTO" Shortcut="Ctrl+Shift+Alt+1" Text="CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Action" Name="FADEIN" Shortcut="Ctrl+Shift+Alt+2" Text="FADE IN:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADEOUT" Shortcut="Ctrl+Shift+Alt+3" Text="FADE OUT." Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADETO" Shortcut="Ctrl+Shift+Alt+4" Text="FADE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="DISSLV" Shortcut="Ctrl+Shift+Alt+5" Text="DISSOLVE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="BACKTO" Shortcut="Ctrl+Shift+Alt+6" Text="BACK TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="MATCHCUT" Shortcut="Ctrl+Shift+Alt+7" Text="MATCH CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="JUMPCUT" Shortcut="Ctrl+Shift+Alt+8" Text="JUMP CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FBLACK" Shortcut="Ctrl+Shift+Alt+9" Text="FADE TO BLACK." Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="E" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Scene Citation"/>
+        <ActivateIn Element="Notations"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Action" Name="Action Test " Shortcut="E" Text="(" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="(" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+        <ActivateIn Element="Stage Action"/>
+      </Alias>
+    </Macro>
+  </Macros>
+
+  <Actors>
+    <Actor MacVoice="" Name="Man 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Man 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Man" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Woman" Pitch="Normal" Speed="Medium" WinVoice=""/>
+  </Actors>
+
+  <Cast>
+    <Narrator Actor="Man 1">
+      <Element Type="Character"/>
+      <Element Type="Dialogue"/>
+    </Narrator>
+    <Member Actor="" Character="ANNA"/>
+    <Member Actor="" Character="JELENA"/>
+    <Member Actor="" Character="THOMAS"/>
+    <Member Actor="" Character="WILLIAM"/>
+    <Member Actor="" Character="HÖGTALARE"/>
+    <Member Actor="Man 1" Character="Jane"/>
+    <Member Actor="Man 1" Character="Bill"/>
+  </Cast>
+
+  <SceneNumberOptions AutoHideNumbersOnRight="No" LeftLocation="0.75" NumberScheme="1A" RightLocation="7.38" ShowNumbersOnLeft="Yes" ShowNumbersOnRight="Yes">
+    <FontSpec AdornmentStyle="0" Font="Times New Roman" RevisionID="0" Size="12" Style=""/>
+  </SceneNumberOptions>
+
+  <CastList SortOption="Alphabetical">
+    <CustomOrder/>
+  </CastList>
+
+  <CharacterHighlighting/>
+
+  <ScriptNavigatorPreferences>
+    <TableColumnSettings Filter="" IsSortAscending="Yes" Label="Script" SortColumn="Order" TableIdentifier="NavDynScenes" id="ed8d2372-e107-42fc-830f-49c308a41da9">
+      <Column Width="65">Order</Column>
+      <Column Width="48">Page</Column>
+      <Column Width="250">Script</Column>
+      <Column Width="54">Color</Column>
+      <Column Width="250">Summary</Column>
+    </TableColumnSettings>
+  </ScriptNavigatorPreferences>
+
+  <AltCollection/>
+
+  <TargetScriptLength>120</TargetScriptLength>
+
+  <ListItems/>
+
+  <DisplayBoards>
+    <DisplayBoard Height="90" Id="5d55dcd8-f423-46c5-8fbd-bd747832a113" ScrollOrigin="0,0" Type="StoryMap" Width="14600" ZoomLevel="730.000">
+      <Lanes>
+        <Lane Id="81e8fe9f-ce30-4d4c-b617-6b78da61266b" Label="Outline 1" Level="7" Type="Outline 1"/>
+        <Lane Id="924016a9-6d4f-4918-897f-3477034f051b" Label="Outline 2" Level="5" Type="Outline 2"/>
+      </Lanes>
+    </DisplayBoard>
+    <DisplayBoard Height="10000" Id="b6414325-18ae-4adb-b843-a62fce2a181a" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
+  </DisplayBoards>
+
+  <Writers/>
+
+  <WriterMarkup State="Off"/>
+
+  <TagData>
+    <TagCategories>
+      <TagCategory Color="#00003600B700" Id="01fc9642-84ff-4366-b37c-a3068dee57e8" Name="Cast Members" Number="2" Style="Bold"/>
+      <TagCategory Color="#000095002900" Id="028a4e2b-b507-4d09-88ab-90e3edae9071" Name="Background Actors" Number="3" Style="Bold"/>
+      <TagCategory Color="#E20017003200" Id="0377dbe6-77a3-41af-bda8-86eb2468fdbf" Name="Stunts" Number="4" Style="Bold"/>
+      <TagCategory Color="#0000B800C800" Id="04721a56-f54b-49c8-80ad-d53887d6b851" Name="Vehicles" Number="5" Style="Bold"/>
+      <TagCategory Color="#B80075004D00" Id="05c556eb-6bc1-4a3a-b09f-f8b5ba1b6afa" Name="Props" Number="6" Style="Bold"/>
+      <TagCategory Color="#8700B700BB00" Id="069e18b8-2109-4f3d-94e7-d802027a60a8" Name="Special Effects" Number="8" Style="Bold"/>
+      <TagCategory Color="#FF007D002200" Id="0726fa85-1e65-4ab8-87de-bf21d09b01f0" Name="Wardrobe" Number="9" Style="Bold"/>
+      <TagCategory Color="#FF003F00E600" Id="08ae1eef-32ce-415f-9a9b-0982d2453ec4" Name="Makeup/Hair" Number="10" Style="Bold"/>
+      <TagCategory Color="#B900C5003200" Id="09cb0d1c-ce01-4f22-bb64-b5f2e6c491c6" Name="Animals" Number="11" Style="Bold"/>
+      <TagCategory Color="#E900B7003C00" Id="0ae40617-cc7c-48e6-ae2b-5aaecc09986f" Name="Animal Wrangler" Number="12" Style="Bold"/>
+      <TagCategory Color="#00008B009200" Id="0b0b44c9-aa4b-4c40-88b1-d94472ad7a26" Name="Music" Number="13" Style="Bold"/>
+      <TagCategory Color="#AF0026009300" Id="0ce7d308-096d-4603-8fe8-349f72cd89ff" Name="Sound" Number="14" Style="Bold"/>
+      <TagCategory Color="#0000EE005E00" Id="0debb71b-5743-4c53-80cc-e17e841ce645" Name="Set Dressing" Number="16" Style="Bold"/>
+      <TagCategory Color="#0000C4007F00" Id="0e7a8fc5-5441-4bad-a9bf-5ddd3fe51c69" Name="Greenery" Number="17" Style="Bold"/>
+      <TagCategory Color="#FF001A002100" Id="0ff5cda4-4d43-4cfe-940f-91380c46fdad" Name="Special Equipment" Number="19" Style="Bold"/>
+      <TagCategory Color="#990033000000" Id="109d0eaa-0334-4823-ac0c-b44d3f209dc4" Name="Security" Number="18"/>
+      <TagCategory Color="#0000CC00FF00" Id="1179a4b1-70ee-4011-b4a2-809a0af09e92" Name="Additional Labor" Number="20"/>
+      <TagCategory Color="#99000000FF00" Id="12ab0932-e3b9-4b4a-bcd0-3da1b4e61d5e" Name="Visual Effects" Number="21"/>
+      <TagCategory Color="#3300CC006600" Id="135cc9d1-c4d5-4d00-83d9-571f584ea9cd" Name="Mechanical Effects" Number="22"/>
+      <TagCategory Color="#000099009900" Id="148267ae-50ae-4746-8202-659fb7447b55" Name="Miscellaneous" Number="23"/>
+      <TagCategory Color="#000000006600" Id="15b6f4fd-4e74-4ad8-9971-b239d88c2997" Name="Notes" Number="24"/>
+      <TagCategory Color="#D7008300FF00" Id="216f33fd-fc42-4269-be01-b05b18f815a0" Name="Comments" Number="29" Style="Bold"/>
+      <TagCategory Color="#0000CF00FF00" Id="47b02ff1-5161-4137-b736-f36eebba7643" Name="Camera" Number="7" Style="Bold"/>
+      <TagCategory Color="#7A008100FF00" Id="4a84b619-62f9-4c04-8e46-bf2cd0b7f582" Name="Art Department" Number="15" Style="Bold"/>
+      <TagCategory Color="#FF007E007900" Id="63c140da-ef2b-491a-b416-b46f461abb89" Name="Script Day" Number="25" Style="Bold"/>
+      <TagCategory Color="#7300FC00D600" Id="70877d87-30ef-45b6-be46-c6fa94b83a71" Name="Sequence" Number="27" Style="Bold"/>
+      <TagCategory Color="#ED00E6000000" Id="849f1ebf-5507-4f33-bff6-3a5b4d73be14" Name="Unit" Number="26" Style="Bold"/>
+      <TagCategory Color="#FF008A00D800" Id="8e5e75c2-713b-47df-a75f-f12648b98ded" Name="Synopsis" Number="1" Style="Bold"/>
+      <TagCategory Color="#7300FD00FF00" Id="c5e89e4d-f83e-4c28-950c-92a63f1b5f26" Name="Location" Number="28" Style="Bold"/>
+    </TagCategories>
+  </TagData>
+
+  <Characters>
+    <CharacterTraitData>
+      <Traits>
+        <Trait ID="a771e8a7-0c6f-401c-ab87-b50f83fc64b4" Name="Age" Type="text"/>
+        <Trait ID="6b3a0017-69de-4c7a-b6e8-1d0b4d2ad047" Name="Disability" Type="text"/>
+        <Trait ID="4b987a9f-24dc-44ae-9bb5-0756485c1c80" Name="Ethnicity" Type="text"/>
+        <Trait ID="611965b7-ffab-41a1-a154-023ea8caf768" Name="Gender" Type="text"/>
+        <Trait ID="9b51b304-a8c0-4277-a841-342b5f84fc65" Name="Occupation" Type="text"/>
+        <Trait ID="ecdbbc67-9a69-40dc-8e9f-745a665ab73a" Name="Orientation" Type="text"/>
+        <Trait ID="338d378b-5235-40ad-8102-0dbe0b32ff84" Name="Role" Type="text"/>
+      </Traits>
+      <Holders/>
+    </CharacterTraitData>
+    <ChartOptions Identifier="InclusivityAnalysis">
+      <FilterSets/>
+    </ChartOptions>
+  </Characters>
+
+  <ScriptNotes>
+    <ScriptNote Color="#000000000000" DateModified="20250619T204516" DateTime="20250619T204444" Id="1" Name="" Range="0,0" RefId="88d3480d-986a-4670-80e3-ad4467bbc83a" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="5de66de9-46dc-4d80-a544-986fac2b3d4b">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Use the Scene Citation element to label your scene.</Text>
+      </Paragraph>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="6497b49b-af51-447c-b237-bc81257b7136">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">
+Pressing Enter/Return will automatically take you to the Notations element.</Text>
+      </Paragraph>
+    </ScriptNote>
+    <ScriptNote Color="#000000000000" DateModified="20250619T204600" DateTime="20250619T204518" Id="2" Name="" Range="30,30" RefId="6c5f274f-c525-41c4-a04c-171b3424c6ff" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="336e5d60-3b2a-4fe5-b87f-4c673432c920">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">On the Title Page, include either your contact information or that of your representation -- not both.</Text>
+      </Paragraph>
+    </ScriptNote>
+    <ScriptNote Color="#000000000000" DateModified="20250619T222912" DateTime="20250619T204605" Id="3" Name="" Range="259,259" RefId="55921f57-1534-439b-8e7a-ca59910a7728" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="b082d1e5-40ac-4456-8c91-6db5566bfc70">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">There are many ways to paginate your play, from the straight forward numerical sequence of 1, 2, 3 to an older format of I-2-16, (meaning Act 1, Scene 2, Page 16).</Text>
+      </Paragraph>
+    </ScriptNote>
+    <ScriptNote Color="#000000000000" DateModified="20250619T205000" DateTime="20250619T204801" Id="4" Name="" Range="327,327" RefId="454b67d3-8917-4e96-b328-991de7e8524c" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="73da060c-ec02-45df-9d9e-f0d5da125594">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">This is a ScriptNote.</Text>
+      </Paragraph>
+    </ScriptNote>
+    <ScriptNote Color="#000000000000" DateModified="20250619T205024" DateTime="20250619T205002" Id="5" Name="" Range="2361,2361" RefId="ec3cc553-3965-4912-8a40-a9fd8d25b9a1" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="a1649b27-81f0-4248-97ac-7f8dd3830b9a">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Character names are placed in all caps to distinguish their actions.  After these initial directions, the character names return to regular formatting.</Text>
+      </Paragraph>
+    </ScriptNote>
+    <ScriptNote Color="#000000000000" DateModified="20250619T205122" DateTime="20250619T205110" Id="6" Name="" Range="2366,2366" RefId="a8216b27-6bbd-444b-92c2-109fef369b05" Type="" WriterID="00uvg25qxwpkDN3Vb417" WriterName="undefined">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No" id="3b12659f-e7f5-480e-ba93-938ce3b590c8">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Use the Parenthetical element for stage action reliant on the proceeding dialogue.</Text>
+      </Paragraph>
+    </ScriptNote>
+  </ScriptNotes>
+
+  <Navigator>
+    <Tabs>
+      <Tab Selected="Yes" id="ed8d2372-e107-42fc-830f-49c308a41da9"/>
+    </Tabs>
+  </Navigator>
+
+  <Images/>
+
+  <Outlines Paragraphs="Show" StructureLines="Hide"/>
+
+</FinalDraft>
