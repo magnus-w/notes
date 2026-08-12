@@ -76,4 +76,4 @@ I can just as easily prompt the model myself.
 
 And here's the rub with the good/bad A.I. writing argument: The better LLM:s get at writing, the more likely people are to prompt them themselves, instead of reading what others have generated through prompting.
 
-Because why would they read that?
+Because why would they?
