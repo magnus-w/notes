@@ -83,3 +83,5 @@ You don't need Pangram, you can just use his founding idea and look at the numbe
 Also, being soft on AI is probably not the future: According to the New York Times as well as Gallup, Gen Z's relationship with artificial intelligence is shifting from eager adoption to deep skepticism and pushback. Recent data shows that 48% feel AI workplace risks outweigh benefits, 83% worry shortcuts harm learning, and expressions of anger toward the tech have spiked to 31%.
 
 The more slop, the fewer readers.
+
+(BTW: This text got a "100% written by a human" score on Pangram.)
