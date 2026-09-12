@@ -39,3 +39,5 @@ Bli månadsgivare....
 ## Hållbarhetspartner 
 
 ## Contribute to a special kind of school
+
+## Bli månadsgivare till en väldigt speciell skola
