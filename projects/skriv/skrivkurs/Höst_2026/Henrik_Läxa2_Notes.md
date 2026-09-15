@@ -15,4 +15,7 @@
 - Lika karaktäriserande som Luttis inre monolog och yttre dialog är, lika icke-gestaltad är Weijne.
 - Om Lutti ska vara det utrednings-ess som Weijne motiverar hennes behov av att komma in med, då vet hon väl sen gammalt att rättsläkaren tar blodprov? 
 - Igen: Förstår att du vill gestalta konflikter, men välj saker som karaktäriserar. Till exempel visa att hon är vassare än rättsläkaren. (Hennes sura inre reflektion om att göra sitt jobb är här lök på laxen.)
-- När det gäller utredningstermerna så pratar plötsligt alla likadant och alla använder rapportspråket även i sitt talade språk. Bra polisserier skiljer på det talade och det "officiella" språket.
+- När det gäller utredningstermerna så pratar plötsligt alla likadant och alla använder rapportspråket även i sitt talade språk. Bra att skilja på det talade och det "officiella" språket och då kan skillnader i det talade bli karaktäriserade.
+- Varför tänker Lutti som hon gör om Björn? Det finns inget i situationen och inget i den inre monologen, vilket gör det konstigt eftersom det finns så mycket annat i det inre. 
+- Varför är Björn "anti-Lutti"? Även här saknar den inre monologen motivering, trots att det finns motivering och backstory om annat. 
+- Varför pratar det om att de ska "ta sin an" utredningen? Den är väl redan Luttis/deras iom att hon åker dit? (Annars skulle hon inte åka dit.)
