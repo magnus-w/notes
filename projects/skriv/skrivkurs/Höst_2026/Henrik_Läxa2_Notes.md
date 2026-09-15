@@ -19,3 +19,10 @@
 - Varför tänker Lutti som hon gör om Björn? Det finns inget i situationen och inget i den inre monologen, vilket gör det konstigt eftersom det finns så mycket annat i det inre. 
 - Varför är Björn "anti-Lutti"? Även här saknar den inre monologen motivering, trots att det finns motivering och backstory om annat. 
 - Varför pratas det om att de ska "ta sin an" utredningen? Den är väl redan Luttis/deras iom att hon åker dit? (Annars skulle hon inte åka dit.)
+- En advokat på Mannerheim Swartling skulle aldrig prata om en kollega med någon extern. Utan att veta att det är en pågående utredning och vad utredningen handlar om. Så det funkar inte att Weijne inte berättar att advokaten är död. 
+
+## Övergripande
+- Det måste vara ganska stora konflikter internt för att motivera motsättningar, eftersom alla internt är "på samma sida". 
+- Ta korruptionen inom L.A.P.D. i Bosh-böckerna. 
+- Att nån är lite sur på nån annan är inte tillräckligt stark driver av storyn. 
+- Och: Vi vill att FALLET ska vara huvuddrivern. Hitta leddtrådar, förhöra misstänkta, etc.
