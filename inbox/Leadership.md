@@ -12,7 +12,7 @@
 
 ## Indecision 
 - Waiting for a direction
-- Show a strong dire
+- Show a strong direction
 
 ## Bias for action 
 - Snap them out of it
@@ -25,3 +25,4 @@
 ## Sound decisive 
 - Bias for action 
 - 
+GitHub token for Claude: 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
