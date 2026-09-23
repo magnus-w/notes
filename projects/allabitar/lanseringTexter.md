@@ -1,5 +1,10 @@
 # Lanseringstexter - Alla Bitar
 
+## Varför leder så ofta digitalisering till krismöten i ledningsgruppen?
+
+När folk inte är beredda, så blir de oförberedda!
+
+
 ## Varför leder så många digitaliseringsprojekt till krismöten i ledningsgruppen?
 
 Det här är inte bra!
