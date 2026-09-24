@@ -74,8 +74,10 @@ falling back to the first `#` heading and today's date. It shells out to pandoc 
 the markdown→HTML fragment, then builds a TOC from the h2/h3 elements and inlines
 everything into `templates/template.html`.
 
-`md2pdf` is on `PATH` but lives outside the repo (`~/.config/md-templates/md2pdf.sh`)
-and is interactive — it prompts for paths, so it can't be driven non-interactively.
+PDF and .docx export live in a separate repo, `magnus-w/templates` (cloned at
+`~/GitHub/templates`), not here: `md2pdf <file.md> <template>` and `md2docx <file.md>`
+on `PATH` link to its `export-pdf.sh` and `export-docx.sh`, and Zed's "Export to …"
+tasks call the same scripts. That repo isn't synced by `todoc`.
 
 ## Two traps
 
