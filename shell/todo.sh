@@ -36,8 +36,8 @@ for _todo_compl in /opt/homebrew/etc/bash_completion.d/todo_completion \
 done
 unset _todo_compl
 
-# Sync the whole notes repo. Task changes are committed separately from
-# everything else, so todo churn doesn't bury real note edits in the log.
+# Sync the todo files only. Notes elsewhere in the repo are committed with
+# plain git or lazygit; --autostash keeps their uncommitted edits safe here.
 todoc() {
   local repo="$NOTES_REPO" stamp
   stamp=$(date '+%Y-%m-%d %H:%M')
@@ -45,11 +45,6 @@ todoc() {
   git -C "$repo" add todo || return 1
   git -C "$repo" diff --cached --quiet -- todo \
     || git -C "$repo" commit -q -m "todo: update $stamp" -- todo || return 1
-
-  # Sweep up notes edited elsewhere (Zed, etc.) and forgotten.
-  git -C "$repo" add -A || return 1
-  git -C "$repo" diff --cached --quiet \
-    || git -C "$repo" commit -q -m "notes: sync $stamp" || return 1
 
   # Task files union-merge via .gitattributes, so same-day edits on two
   # machines combine cleanly. Anything else that conflicts is backed out

@@ -13,18 +13,18 @@ tailnet), which is why the sync machinery below exists.
 
 ## Sync: `todoc`
 
-`todoc` is the only way this repo is meant to be committed and pushed. It is a shell
-function defined in `shell/todo.sh`, sourced from `~/.zshrc` (Mac) and `~/.bashrc`
-(linux) — the rc files each contain one line pointing here.
+`todoc` syncs the **todo files only**. It is a shell function defined in
+`shell/todo.sh`, sourced from `~/.zshrc` (Mac) and `~/.bashrc` (linux) — the rc files
+each contain one line pointing here.
 
-It commits in two stages: `todo/` first as `todo: update <stamp>`, then everything
-else as `notes: sync <stamp>`, so task churn doesn't bury real note edits in the log.
-Then `git pull --rebase --autostash` and push, aborting the rebase and leaving the
-repo untouched if anything conflicts.
+It commits `todo/` as `todo: update <stamp>`, then runs
+`git pull --rebase --autostash` and push, aborting the rebase and leaving the repo
+untouched if anything conflicts. It does not touch anything outside `todo/`.
 
-**The second stage runs `git add -A` over the whole repo.** Anything you leave in the
-working tree gets committed on the user's next sync, under a commit message that
-says nothing about it. Write scratch files to the session scratchpad, not here.
+Notes are committed and pushed with plain git or lazygit, like any other repo. The
+user also edits notes directly in Zed and micro and pushes/pulls them themselves.
+Still write scratch files to the session scratchpad, not here, so they don't end up
+in the user's next commit.
 
 `todo/*.txt` is union-merged via `.gitattributes` so tasks added on both machines
 concatenate rather than conflict. Consequence: the same task can appear twice if it's
