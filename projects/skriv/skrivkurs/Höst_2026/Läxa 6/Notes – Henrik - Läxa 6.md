@@ -1,8 +1,8 @@
-# Lektörsfeedback – Henrik, läxa 6
+# Notes – Henrik - Läxa 6
 
 Nov 9, 2026 · @Magnus Westerberg
 
-”Det sista jag vet”, kapitel 12 (Måndag eftermiddag), 13 (Måndag sen eftermiddag) och 14 (Tisdag morgon), s. 1–8.
+> ”Det sista jag vet”
 
 ## Bra
 
