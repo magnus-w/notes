@@ -2,6 +2,14 @@
 
 > Med Rapps admin-hjälp upptäcker de att Erik är misstänkt för guldstöld. Ett brott med dödsstraff.
 
+## Christopher går till kontoret och urverk
+
+- De olika rummen i korridoren med olika tjänstehjon som gör olika hushållssaker.
+- Får Christopher att tänka på att gruvkontoret funkar som ett urverk, han har lagat sådana, vänta, hela gruvan är ett urverk! Med några kuggar som saknas i några kugghjul och några hela kugghjul som saknas. Det är det han kan fixa.
+- Springer på Rapp i korridoren - denne meddelar redan där att hans rekvisition är nekad, eller C. frågar efter den och får det svaret.
+- Walk and talk
+
+
 ## Munken vill att de ska kolla upp knektar
 
 - Polhem undrar varför, munken står på sig av spionskäl. Detta blir ett fram och åter-banter.
