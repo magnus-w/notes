@@ -11,3 +11,6 @@
 ## Work Breakdown
 - "The Solution needs to look at and define the problems that need to be solved in order for the product to deliver value to our customers." - Nunu, STE, Controls
 - "The APM, ASA and RTE than need to breakdown those into the problems the ART needs to solve, in order for the Solution to deliver to the project." - Nunu, STE, Controls
+
+## The Biggest Challenge
+- "How do we get stakeholders - the Portfolio - to stop "ordering stuff" for a certain time slot, and start stating problems they need a solution for?" - Poul -ASA/Converter
